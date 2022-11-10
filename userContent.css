@@ -389,7 +389,7 @@
     }
 
     .issue-body-content .module>.mod-header .ops {
-      background-color: #202020 !important;
+      background-color: transparent !important;
     }
 
     .ajs-layer {
@@ -515,6 +515,10 @@
 
     .aui-sidebar .aui-navgroup.aui-navgroup-vertical .aui-nav>li>.aui-nav-item>.aui-icon {
       filter: saturate(0) invert(0.8) !important;
+    }
+
+    .aui-sidebar .aui-navgroup.aui-navgroup-vertical .aui-nav>li>.aui-nav-item>.aui-icon.icon-sidebar-charts {
+      filter: saturate(0%) invert(60%) !important;;
     }
 
     .aui-sidebar-submenu .aui-nav>li>.aui-nav-item>.aui-icon, .aui-sidebar .aui-nav>li>.aui-nav-item>.aui-icon {
@@ -730,7 +734,7 @@
       border-color: #535353 !important;
     }
 
-    tbody tr:nth-of-type(2n) {
+    *:not(.aui-tooltip>div>table)>tbody tr:nth-of-type(2n) {
       background-color: #2e2e2e !important;
     }
 
@@ -1873,7 +1877,7 @@
       background-color: transparent !important;
     }
 
-    .ghx-iconfont.aui-icon-small::before, .ghx-iconfont.aui-icon-large::before {
+    *:not(.aui-button)>.ghx-iconfont.aui-icon-small::before, *:not(.aui-button)>.ghx-iconfont.aui-icon-large::before {
       color: #a0aec6 !important;
     }
 
@@ -2280,6 +2284,10 @@
     
     #jira-header-feedback-link {
       display: none !important;;
+    }
+    
+    .ghx-statistic-badge {
+      background-color: #4e4e4e !important;
     }
   }
 
@@ -3854,9 +3862,14 @@
       border-color: #535353 !important;
     }
 
-    .aui-button.aui-button-link:hover, .aui-button.aui-button-link:focus {
+    .aui-button.aui-button-link:hover:not(.ghx-active), .aui-button.aui-button-link:focus:not(.ghx-active) {
       background-color: transparent !important;
       color: #88aeee !important;
+    }
+    
+    .ghx-controls-filters dd a.ghx-active, .ghx-controls-filters dd .js-quickfilter-button.ghx-active {
+      background: #344563 !important;
+      color: #a4adbd !important;
     }
 
     .aui-select2-drop .select2-results .select2-result-with-children>.select2-result-label {
@@ -4620,7 +4633,7 @@
     }
     table.confluenceTable th.confluenceTh.highlight-\#6b778c[data-mce-selected="1"],
     table.confluenceTable td.confluenceTd.highlight-\#6b778c[data-mce-selected="1"] {
-      background-color: #6282ac !important;
+      background-color: #6282ae !important;
     }
     table.confluenceTable th.confluenceTh.highlight-\#7a869a,
     table.confluenceTable td.confluenceTd.highlight-\#7a869a {
@@ -5142,6 +5155,10 @@
     
     .ect-language-option-div-wrap {
       border-color: #535353 !important;
+    }
+    
+    table.aui > tbody > tr, table.aui > tfoot > tr {
+      color: #ccc !important;
     }
   }
 }
