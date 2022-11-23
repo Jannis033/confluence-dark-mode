@@ -2185,7 +2185,7 @@
       background-color: #2e2e2e !important;
     }
     
-        .ghx-swimlane-header {
+    .ghx-swimlane-header {
       background-color: #2e2e2e !important;
     }
     
@@ -2286,8 +2286,56 @@
       display: none !important;;
     }
     
-    .ghx-statistic-badge {
+    .ghx-statistic-badge,#vote-data:not(.jira-badge__primary),#watcher-data:not(.jira-badge__primary), aui-badge[title="Story Points"], .ghx-stat-total>aui-badge {
       background-color: #4e4e4e !important;
+      color: #a2c2ec !important;
+    }
+    
+    aui-badge.ghx-in-progress, .aui-badge.ghx-in-progress, aui-badge.jira-badge__primary, .aui-badge.jira-badge__primary {
+      background-color: #6583b5 !important;
+      color: #fff !important;
+    }
+    
+    .ghx-detail-view .ui-sidebar::after {
+      filter: brightness(0) invert(0.8) !important; 
+    }
+    
+    .ghx-detail-issue {
+      color: #fff !important;
+    }
+    
+    .rw_inline_dialog > .rw_body > .rw_section {
+      border-color: #535353 !important;
+    }
+    
+    #rw_header .rw_header_background .rw_preview_background, #rw_header #rw_breadcrumbs ul li > *, #rw_header #rw_breadcrumbs ul li > a:hover, #rw_header #rw_my_menu ul li > *, #rw_site_switcher .rw_item_icon, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a:hover, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a.rw_active, #rw_header.rw_navigation_mode_menu #rw_navigation_menu .rw_mobile_navigation_button {
+      color: #fff !important;
+    }
+    
+    span.rw_request_status.rw_color_blue-gray {
+      background-color: #464f62 !important;
+      border-color: #464f62 !important;
+      color: #cdd6e6 !important;
+    }
+    
+    span.rw_request_status.rw_color_green {
+      background-color: #305140 !important;
+      border-color: #305140 !important;
+      color: #6effa0 !important;
+    }
+    
+    span.rw_request_status.rw_color_yellow {
+      background-color: #515030 !important;
+      border-color: #515030 !important;
+      color: #ffe86e !important;
+    }
+    
+    .rw_start_searching_container>.rw_item_icon {
+      filter: invert(1) !important;
+    }
+    
+    .rw_search_dialog .rw_dialog_cover {
+      background-color: #0e0e0eaa !important;
     }
   }
 
@@ -5159,6 +5207,26 @@
     
     table.aui > tbody > tr, table.aui > tfoot > tr {
       color: #ccc !important;
+    }
+    
+    div[style="display: inline-block; position: relative; padding: 3px 6px 0px; vertical-align: top; font-family: Helvetica, Arial; font-size: 12px; top: 4px; cursor: default; opacity: 0.7;"] {
+      color: #000 !important;
+    }
+    
+    .aui-inline-dialog .aui-inline-dialog-contents, .aui-inline-dialog .contents {
+      border: 0.5px solid #535353 !important;
+    }
+    
+    .linchpin-navigation-menus {
+      background-color: #202020 !important;
+    }
+    
+    #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort):hover {
+      background-color: #2e2e2e !important;
+    }
+    
+    #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort):hover::after, #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort).sorting_asc:hover::after, #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort).sorting_asc::after { 
+      border-bottom-color: #ccc !important;
     }
   }
 }
