@@ -1,6 +1,6 @@
 /*
   Confluence and Jira dark mode by Jannis Gipp
-  Version: v1.4
+  Version: v1.5.2
 */
 @media (prefers-color-scheme: dark) {
   @-moz-document domain(support.epg.com) {
@@ -2337,6 +2337,19 @@
     .rw_search_dialog .rw_dialog_cover {
       background-color: #0e0e0eaa !important;
     }
+    
+    #search-results-table tbody tr:hover {
+      background-color: #3e3e3e !important;
+    }
+    
+    #search-results-table td.key {
+      color: #88aeee !important;
+    }
+    
+    .editable-field.active.saving .overlay-icon,.iic-widget__issue-type-selector__trigger img {
+      filter: invert(0.85) !important;
+      background-color: transparent !important;
+    }
   }
 
   @-moz-document domain(faq.epg.com), domain(support.epg.com) {
@@ -3098,7 +3111,7 @@
       color: #B7D9B7 !important;
     }
 
-    .rwui_text_box.rwui_type_tip span, .rwui_text_box.rwui_type_tip span p {
+    .rwui_text_box.rwui_type_tip span, .rwui_text_box.rwui_type_tip span p, .rwui_text_box.rwui_type_tip span em {
       color: #B7D9B7 !important;
     }
 
@@ -3115,7 +3128,7 @@
       color: #e8dd87 !important;
     }
 
-    .rwui_text_box.rwui_type_note span, .rwui_text_box.rwui_type_note span p, .confluence-information-macro-note span, .confluence-information-macro-note span p {
+    .rwui_text_box.rwui_type_note span, .rwui_text_box.rwui_type_note span p, .rwui_text_box.rwui_type_note span em, .confluence-information-macro-note span, .confluence-information-macro-note span p, .confluence-information-macro-note span em {
       color: #e8dd87 !important;
     }
 
@@ -3128,7 +3141,7 @@
       color: #87c8e8 !important;
     }
 
-    .rwui_text_box.rwui_type_info span, .rwui_text_box.rwui_type_info span p {
+    .rwui_text_box.rwui_type_info span, .rwui_text_box.rwui_type_info span p, .rwui_text_box.rwui_type_info span em {
       color: #87c8e8 !important;
     }
 
@@ -3141,7 +3154,7 @@
       color: #DFB0B1 !important;
     }
 
-    .rwui_text_box.rwui_type_warning span, .rwui_text_box.rwui_type_warning span p {
+    .rwui_text_box.rwui_type_warning span, .rwui_text_box.rwui_type_warning span p, .rwui_text_box.rwui_type_warning span em {
       color: #DFB0B1 !important;
     }
 
@@ -5227,6 +5240,23 @@
     
     #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort):hover::after, #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort).sorting_asc:hover::after, #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort).sorting_asc::after { 
       border-bottom-color: #ccc !important;
+    }
+    
+    .ic-reply-container {
+      background-color: #0e0e0e !important;
+      border-color: #535353 !important;
+    }
+    
+    .page-context .profile-macro.cup-profile-macro .vcard {
+      background-color: #0e0e0e !important;
+    }
+    
+    .page-context .cup-profile-macro {
+      border-color: #535353 !important;
+    }
+    
+    #splash-dialog-content {
+      border-color: #535353 !important;
     }
   }
 }
