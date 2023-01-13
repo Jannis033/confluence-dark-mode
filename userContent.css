@@ -1,3 +1,8 @@
+/*
+  Confluence and Jira dark mode by Jannis Gipp
+  Version: v1.6.3
+  Changes: small adjustments
+*/
 @media (prefers-color-scheme:dark) {
   @-moz-document domain(support.epg.com) {
     :root {
@@ -17,7 +22,7 @@
       background-color: #202020 !important
     }
 
-    #activity-stream-show-more, #announcement-banner, #attachmentmodule #attachment_thumbnails .attachment-content .attachment-thumb, #create-template, #dashboard>.tabs.vertical, #descriptionArea, #gadget-dialog .item-group, #ghx-backlog-column, #ghx-operations, #issuetable .issuerow .issue-actions-trigger.active, #issuetable>tbody>tr>td, #issuetable>tbody>tr>th, #issuetable>tfoot>tr>td, #issuetable>thead>tr>td, #issuetable>thead>tr>th, #rlabs-jstree-container, #rw_wrapper .rw_request_primary_column>div~div, #rw_wrapper.rw_browse_files .rw_upload_files .rw_item_content h3, #rw_wrapper.rw_request .rw_request_comments_module .rw_request_comment .rw_comment_editor .rw_textarea, #rw_wrapper.rw_request .rw_request_comments_module .rw_request_comment ul.rw_activity_list li~li, #rw_wrapper.rw_show_files .rw_upload_files .rw_item_content h3, #show-more-links, .activity-item, .activity-item-grouped .activity-item-summary, .atlassian-autocomplete .suggestions, .atlassian-autocomplete .suggestions .syntax-help-container, .aui-dialog2-footer, .aui-dialog2-header, .aui-list .aui-list-section+.aui-list-section, .aui-list .aui-list-section+.dev-status-basic-note, .aui-list .aui-list-section+h5, .aui-page-focused .aui-page-panel-content>form.aui .buttons-container, .aui-page-header-fixed.header-with-border, .aui-sidebar[aria-expanded=false] .sidebar-content-container .jira-sidebar-group-with-divider::before, .browse-projects .aui-page-panel, .browse-projects .aui-page-panel-nav, .browse-projects table.aui>thead, .buttons-container td, .c3-tooltip tr, .check-list-select .aui-list-scroll, .check-list-select .aui-list-scroll ul+h5, .cp-header-secondary .cp-user-profile .cp-avatar, .cp-header-secondary .cv-header-nav-button, .dUYMOc, .date-header, .daterangepicker .drp-buttons, .details-layout .split-view .list-results-panel .count-pagination, .details-layout .split-view .list-results-panel .list-panel .issue-list>li, .formtitle, .gEzZZT, .ghx-backlog-container .ghx-helper, .ghx-backlog-container .ghx-issues .ghx-helper, .ghx-column-headers .ghx-column, .ghx-controls-filters dd a:hover, .ghx-epic-expanded .ghx-classification-column, .ghx-inline-dialog .contents form.aui .buttons-container, .ghx-intro-content .ghx-content-open, .ghx-issuetable .nav, .ghx-onboarding-fillyourbacklog, .ghx-version-expanded .ghx-classification-column, .grid td, .header-ending, .iamAttributeList--with-select-all .ruiList__item, .iamReferences .iamItemListContainer__list__item, .iamResults__header__actions .iamResults__header__actions__separator, .iamTickets .iamItemListContainer__list__item, .issue-data-block, .issue-link-oauth-toggle, .issue-search>.aui-page-header, .issue-setup-fields, .issue-table .issuerow .issue-actions-trigger.active, .issue-table>tbody>tr>td, .issue-table>tbody>tr>th, .issue-table>tfoot>tr>td, .issue-table>thead>tr>td, .issue-table>thead>tr>th, .jira-dialog .dialog-menu-group, .legend-item, .links-list dd, .navigator-issue-only .command-bar, .navigator-search, .navigator-sidebar, .order-dropdown .aui-list-section-footer, .panel, .project-shuttle-view-content .project-shuttle-view-breadcrumb, .qf-picker .qf-picker-header, .quick-search-result-group:not(:first-child) .quick-search-section-heading[data-v-04337531], .richeditor-cover~.rte-container:not(:empty), .rlabs-dialog-objects, .rlabs-panel-box-empty, .ruiButton--light, .ruiLayout--references.ruiLayout--twocols .ruiLayout__section--secondary, .ruiLayout--twocols .ruiLayout__section--secondary, .ruiList__separator, .ruiSelect__control, .ruiTabPage, .ruiTable, .ruiTable__row__col, .ruiTable__row__col-fixed, .rw_admin_primary_menu ul li a, .rw_inline_dialog>.rw_body>.rw_section, .rw_input_text, .rw_module .rw_module_button, .rw_search_dialog .rw_dialog .rw_search_header, .rw_search_dialog.rw_has_left_column.rw_has_right_column .rw_dialog .rw_search_results .rw_search_results_right, .rw_textarea, .sd-scale-group .sd-scale-secondary, .shifter-dialog .aui-list .aui-list-scroll, .shifter-dialog .aui-list .shifter-group-heading, .shifter-dialog .hint-container, .tableBorder td, .tabpanel-modules-top+.tabpanel-modules-split, .tabwrap>.tabs.horizontal, .whats-new-container, .wiki-content .rw_module .rw_module_button, body:not(.specificity-inc):not(.specificity-inc):not(.specificity-inc) .wiki-edit-content textarea.wiki-textfield, body:not(.specificity-inc):not(.specificity-inc):not(.specificity-inc) .wiki-edit-content textarea.wiki-textfield:active, body:not(.specificity-inc):not(.specificity-inc):not(.specificity-inc) .wiki-edit-content textarea.wiki-textfield:focus, body:not(.specificity-inc):not(.specificity-inc):not(.specificity-inc) .wiki-edit-content textarea.wiki-textfield:hover, div.gadget-plus .table>tbody>tr>td, div.gadget-plus .table>tbody>tr>th, div.gadget-plus .table>tfoot>tr>td, div.gadget-plus .table>tfoot>tr>th, div.gadget-plus .table>thead>tr>td, div.gadget-plus .table>thead>tr>th, form.aui.column-picker .button-panel, form.aui:not(.aui-legacy-forms) .multi-select:hover, form.aui:not(.aui-legacy-forms) .select:hover, form.aui:not(.aui-legacy-forms).cp-request-form .field-separator, form.share-content-popup fieldset, table.rlabs-table td, table.top-container, tbody tr {
+    #activity-stream-show-more, #announcement-banner, #attachmentmodule #attachment_thumbnails .attachment-content .attachment-thumb, #create-template, #dashboard>.tabs.vertical, #descriptionArea, #gadget-dialog .item-group, #ghx-backlog-column, #ghx-operations, #issuetable .issuerow .issue-actions-trigger.active, #issuetable>tbody>tr>td, #issuetable>tbody>tr>th, #issuetable>tfoot>tr>td, #issuetable>thead>tr>td, #issuetable>thead>tr>th, #rlabs-jstree-container, #rw_wrapper .rw_request_primary_column>div~div, #rw_wrapper.rw_browse_files .rw_upload_files .rw_item_content h3, #rw_wrapper.rw_request .rw_request_comments_module .rw_request_comment .rw_comment_editor .rw_textarea, #rw_wrapper.rw_request .rw_request_comments_module .rw_request_comment ul.rw_activity_list li~li, #rw_wrapper.rw_show_files .rw_upload_files .rw_item_content h3, #show-more-links, .activity-item, .activity-item-grouped .activity-item-summary, .atlassian-autocomplete .suggestions, .atlassian-autocomplete .suggestions .syntax-help-container, .aui-dialog2-footer, .aui-dialog2-header, .aui-list .aui-list-section+.aui-list-section, .aui-list .aui-list-section+.dev-status-basic-note, .aui-list .aui-list-section+h5, .aui-page-focused .aui-page-panel-content>form.aui .buttons-container, .aui-page-header-fixed.header-with-border, .aui-sidebar[aria-expanded=false] .sidebar-content-container .jira-sidebar-group-with-divider::before, .browse-projects .aui-page-panel, .browse-projects .aui-page-panel-nav, .browse-projects table.aui>thead, .buttons-container td, .c3-tooltip tr, .check-list-select .aui-list-scroll, .check-list-select .aui-list-scroll ul+h5, .cp-header-secondary .cp-user-profile .cp-avatar, .cp-header-secondary .cv-header-nav-button, .dUYMOc, .date-header, .daterangepicker .drp-buttons, .details-layout .split-view .list-results-panel .count-pagination, .details-layout .split-view .list-results-panel .list-panel .issue-list>li, .formtitle, .gEzZZT, .ghx-backlog-container .ghx-helper, .ghx-backlog-container .ghx-issues .ghx-helper, .ghx-column-headers .ghx-column, .ghx-controls-filters dd a:hover, .ghx-epic-expanded .ghx-classification-column, .ghx-inline-dialog .contents form.aui .buttons-container, .ghx-intro-content .ghx-content-open, .ghx-issuetable .nav, .ghx-onboarding-fillyourbacklog, .ghx-version-expanded .ghx-classification-column, .grid td, .header-ending, .iamAttributeList--with-select-all .ruiList__item, .iamReferences .iamItemListContainer__list__item, .iamResults__header__actions .iamResults__header__actions__separator, .iamTickets .iamItemListContainer__list__item, .issue-data-block, .issue-link-oauth-toggle, .issue-search>.aui-page-header, .issue-setup-fields, .issue-table .issuerow .issue-actions-trigger.active, .issue-table>tbody>tr>td, .issue-table>tbody>tr>th, .issue-table>tfoot>tr>td, .issue-table>thead>tr>td, .issue-table>thead>tr>th, .jira-dialog .dialog-menu-group, .legend-item, .links-list dd, .navigator-issue-only .command-bar, .navigator-search, .navigator-sidebar, .order-dropdown .aui-list-section-footer, .panel, .project-shuttle-view-content .project-shuttle-view-breadcrumb, .qf-picker .qf-picker-header, .quick-search-result-group:not(:first-child) .quick-search-section-heading[data-v-04337531], .richeditor-cover~.rte-container:not(:empty), .rlabs-dialog-objects, .rlabs-panel-box-empty, .ruiButton--light, .ruiLayout--references.ruiLayout--twocols .ruiLayout__section--secondary, .ruiLayout--twocols .ruiLayout__section--secondary, .ruiList__separator, .ruiSelect__control, .ruiTabPage, .ruiTable, .ruiTable__row__col, .ruiTable__row__col-fixed, .rw_admin_primary_menu ul li a, .rw_inline_dialog>.rw_body>.rw_section, .rw_input_text, .rw_module .rw_module_button, .rw_search_dialog .rw_dialog .rw_search_header, .rw_search_dialog.rw_has_left_column.rw_has_right_column .rw_dialog .rw_search_results .rw_search_results_right, .rw_textarea, .sd-scale-group .sd-scale-secondary, .shifter-dialog .aui-list .aui-list-scroll, .shifter-dialog .aui-list .shifter-group-heading, .shifter-dialog .hint-container, .tableBorder td, .tabpanel-modules-top+.tabpanel-modules-split, .tabwrap>.tabs.horizontal, .whats-new-container, .wiki-content .rw_module .rw_module_button, .wiki-content blockquote, body:not(.specificity-inc):not(.specificity-inc):not(.specificity-inc) .wiki-edit-content textarea.wiki-textfield, body:not(.specificity-inc):not(.specificity-inc):not(.specificity-inc) .wiki-edit-content textarea.wiki-textfield:active, body:not(.specificity-inc):not(.specificity-inc):not(.specificity-inc) .wiki-edit-content textarea.wiki-textfield:focus, body:not(.specificity-inc):not(.specificity-inc):not(.specificity-inc) .wiki-edit-content textarea.wiki-textfield:hover, div.gadget-plus .table>tbody>tr>td, div.gadget-plus .table>tbody>tr>th, div.gadget-plus .table>tfoot>tr>td, div.gadget-plus .table>tfoot>tr>th, div.gadget-plus .table>thead>tr>td, div.gadget-plus .table>thead>tr>th, form.aui.column-picker .button-panel, form.aui:not(.aui-legacy-forms) .multi-select:hover, form.aui:not(.aui-legacy-forms) .select:hover, form.aui:not(.aui-legacy-forms).cp-request-form .field-separator, form.share-content-popup fieldset, table.rlabs-table td, table.top-container, tbody tr {
       border-color: #535353 !important
     }
 
@@ -25,7 +30,7 @@
       background-color: #2e2e2e !important
     }
 
-    #issuetable>tbody>tr, #issuetable>tfoot>tr, #rw_wrapper.rw_request .rw_request_comments_module .rw_request_comment ul.rw_activity_list li.rw_status_item>div, .el-button, .issue-table>tbody>tr, .issue-table>tfoot>tr, .ruiList__item__label:not([disabled]), .select2-drop {
+    #issuetable>tbody>tr, #issuetable>tfoot>tr, #rw_wrapper.rw_request .rw_request_comments_module .rw_request_comment ul.rw_activity_list li.rw_status_item>div, .el-button, .issue-table>tbody>tr, .issue-table>tfoot>tr, .ruiList__item__label:not([disabled]), .ruiSelect__control, .select2-drop {
       background-color: #2e2e2e !important;
       color: #fff !important
     }
@@ -76,11 +81,11 @@
       border-color: #535353 !important
     }
 
-    #details-module .rlabs-customfield-openicon img, .activity-item .user-icon img[alt=Automation], .aui-button.rw_arrow::after, .aui-list .aui-list-checked.aui-checked, .aui-list .aui-list-checked.aui-checked span, .dashboard-item-content .loading, .dashboard-item-content .loading *, .no-results.no-results-message, .no-results.no-results-message>*, .organization-listing-avatar, .rw_start_searching_container>.rw_item_icon, .sd-organization .default-organization-avatar, img[Alt="Organization avatar"], img[src="https://support.epg.com/rest/servicedesk/1/servicedesk/customer/avatar/12013"], img[src="https://support.epg.com/secure/useravatar?ownerId=automation&avatarId=12013"], img[src="https://support.epg.com/secure/useravatar?ownerId=automation&avatarId=12013&s=16"], img[src="https://support.epg.com/secure/useravatar?size=small&ownerId=automation&avatarId=12013"], img[src="https://support.epg.com/secure/useravatar?size=xsmall&ownerId=automation&avatarId=12013"] {
+    #details-module .rlabs-customfield-openicon img, .activity-item .user-icon img[alt=Automation], .aui-button.rw_arrow::after, .aui-list .aui-list-checked.aui-checked, .aui-list .aui-list-checked.aui-checked span, .dashboard-item-content .loading, .dashboard-item-content .loading *, .organization-listing-avatar, .rw_start_searching_container>.rw_item_icon, .sd-organization .default-organization-avatar, img[Alt="Organization avatar"], img[src="https://support.epg.com/rest/servicedesk/1/servicedesk/customer/avatar/12013"], img[src="https://support.epg.com/secure/useravatar?ownerId=automation&avatarId=12013"], img[src="https://support.epg.com/secure/useravatar?ownerId=automation&avatarId=12013&s=16"], img[src="https://support.epg.com/secure/useravatar?size=small&ownerId=automation&avatarId=12013"], img[src="https://support.epg.com/secure/useravatar?size=xsmall&ownerId=automation&avatarId=12013"] {
       filter: invert(1) !important
     }
 
-    .aui-button-link:hover, .daterangepicker td.off, .daterangepicker td.off.end-date, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .ghx-detail-view.gh-editable-detail-view .ghx-detail-issue .module.toggle-wrap .toggle-title, .issue-body-content .module>.mod-header .ops, .ruiTable__row__col-fixed {
+    .aui-button-link:hover, .daterangepicker td.off, .daterangepicker td.off.end-date, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .ghx-detail-view.gh-editable-detail-view .ghx-detail-issue .module.toggle-wrap .toggle-title, .issue-body-content .module>.mod-header .ops, .no-results, .ruiTable__row__col-fixed {
       background-color: transparent !important
     }
 
@@ -195,7 +200,7 @@
       background-color: #535353 !important
     }
 
-    .akEditor, .akEditor>div, .css-11moh5o-control, .css-5zed9i-control, .daterangepicker, .filter-details-section.full-section, .gadget .aui-dd-parent .aui-dropdown, .jstree-default .jstree-hovered, .rlabs-objecttype-quicksearch input, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow, .select2-container-multi .select2-choices, .smart-config, .tabwrap>.tabs.horizontal>li, .tabwrap>ul.tabs>li a, .tabwrap>ul.tabs>li a:link, .tabwrap>ul.tabs>li a:visited, .user-hover-buttons>ul, .user-hover-more, div.rlabs-value-label {
+    .akEditor, .akEditor>div, .css-11moh5o-control, .css-5zed9i-control, .daterangepicker, .filter-details-section.full-section, .gadget .aui-dd-parent .aui-dropdown, .jstree-default .jstree-hovered, .query-component .search-container[data-mode=advanced] .atlassian-autocomplete label[for=advanced-search] .jql-label, .rlabs-objecttype-quicksearch input, .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow, .select2-container-multi .select2-choices, .smart-config, .tabwrap>.tabs.horizontal>li, .tabwrap>ul.tabs>li a, .tabwrap>ul.tabs>li a:link, .tabwrap>ul.tabs>li a:visited, .user-hover-buttons>ul, .user-hover-more, div.rlabs-value-label {
       background-color: #2e2e2e !important;
       border-color: #535353 !important
     }
@@ -419,11 +424,6 @@
 
     #search-results-table tbody tr:hover, .css-19ju8bk-option, .cv-custom-help-center-branding .cp-header .cv-header-nav-button:hover, .daterangepicker td.available:hover, .daterangepicker th.available:hover, .ghx-drag-in-progress .ghx-backlog-container.ghx-kanban-backlog .ghx-no-issues .ghx-helper, .ghx-drag-in-progress .ghx-backlog-container.ghx-open .ghx-no-issues .ghx-helper, .ghx-zone-cell, .issue-data-block.focused, .recipients li:hover, .ruiButton:not(.ruiButton--link):hover, .ruiList__item:not(.ruiList__item--is-selected) .ruiList__item__label:not([disabled]):hover, .ruiTable__row--menu-active, .ruiTable__row--with-menu:hover, td[bgcolor="#bbbbbb"] {
       background-color: #3e3e3e !important
-    }
-
-    .ruiSelect__control {
-      background-color: #2e2e2e !important;
-      color: #fff !important
     }
 
     .iamObjectSchemaPicker__content, .ruiTable__row--header .ruiTable__row__col, .ruiTable__row--header .ruiTable__row__col-fixed {
@@ -701,6 +701,27 @@
       color: #88aeee !important;
       fill: #88aeee !important
     }
+
+    body.a11y-setting-issue-status-patterns .jira-issue-status-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-blue-gray, body.a11y-setting-issue-status-patterns .jira-issue-status-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-default, body.a11y-setting-issue-status-patterns .jira-issue-status-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-medium-gray {
+      background-color: #424242 !important
+    }
+
+    body.a11y-setting-issue-status-patterns .jira-issue-status-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-inprogress, body.a11y-setting-issue-status-patterns .jira-issue-status-lozenge.aui-lozenge-subtle.jira-issue-status-lozenge-yellow {
+      background-color: #1f3f6f !important
+    }
+
+    .activity-sidebar-notification-badge {
+      background-color: #45546f !important
+    }
+
+    .aui-button:hover .activity-sidebar-notification-badge {
+      background-color: #4b5c79 !important
+    }
+
+    .jira-tablesorter-header:hover, .jira-tablesorter-header:hover .jim-table-header-content {
+      background-color: #1e1e1e !important;
+      color: #ddd !important
+    }
   }
 
   @-moz-document domain(faq.epg.com), domain(support.epg.com) {
@@ -738,7 +759,7 @@
       --aui-button-default-selected-bg-color: #6d93d4 !important;
       --aui-button-primary-bg-color: #b5cffd !important;
       --aui-button-primary-active-bg-color: #b5cffd !important;
-      --aui-button-subtle-text-color: #b3cfff !important;
+      --aui-button-subtle-text-color: #b5cffd !important;
       --aui-label-bg-color: #535353 !important;
       --aui-label-hover-bg-color: #555555 !important;
       --aui-form-label-text-color: #96aed6 !important;
@@ -867,7 +888,7 @@
       color: #bbb !important
     }
 
-    #keyboard-shortcuts-dialog .module .item-description, #macro-browser-dialog .macro-body-div label, #macro-browser-dialog .macro-desc, #macro-browser-dialog .macro-param-div label, #macro-browser-dialog .macro-title, #upm-container .upm-plugin-support a, #upm-container .upm-plugin-vendor a, .confluence-information-macro, .empty-state-container .description-container[data-v-0c632370], .iqMyKm, .label-item-meta, .network-macro .description, .smalltext, .stepdesc, .subcalendar-wizard li .description, .upm-plugin-header .upm-section div, .upm-plugin-rating-count, a:not(.aui-button, .aui-dialog2-header-close, .issueaction-aui-icon).disabled, form.aui.aui-legacy-forms label, form.aui.aui-legacy-forms legend, span[style="color: rgb(51,51,51)"] {
+    #ic-resolved-comment-dialog .ic-display-comment-view .ic-display-comment .ic-body .ic-content blockquote .ic-resolved-marker, #keyboard-shortcuts-dialog .module .item-description, #macro-browser-dialog .macro-body-div label, #macro-browser-dialog .macro-desc, #macro-browser-dialog .macro-param-div label, #macro-browser-dialog .macro-title, #upm-container .upm-plugin-support a, #upm-container .upm-plugin-vendor a, .confluence-information-macro, .empty-state-container .description-container[data-v-0c632370], .handy-task-progress-value, .iqMyKm, .label-item-meta, .network-macro .description, .smalltext, .stepdesc, .subcalendar-wizard li .description, .upm-plugin-header .upm-section div, .upm-plugin-rating-count, a:not(.aui-button, .aui-dialog2-header-close, .issueaction-aui-icon).disabled, form.aui.aui-legacy-forms label, form.aui.aui-legacy-forms legend, span[style="color: rgb(51,51,51)"] {
       color: #aaa !important
     }
 
@@ -995,7 +1016,7 @@
       background: #2d2d2d !important
     }
 
-    #autocomplete-dropdown .aui-dropdown.fabric ol li.active, #autocomplete-dropdown .aui-dropdown.fabric ol li.active span, #com-atlassian-confluence div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dropdown li, #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort):hover, #move-page-dialog .search-results .hover td, #move-page-dialog .search-results .hover th, #move-page-dialog .ui-tree li a.current-parent, #mw-container .mw-notification-item.unread, #rte-toolbar #color-picker-control:active .aui-button, #rte-toolbar #table-highlight-group:active .aui-button, #space-admin-body .look-and-feel .greyboxfilled, #space-shuttle-container .space-shuttle-wrap .space-shuttle-view .space-shuttle-view-content .space-shuttle-spaces-view .space-shuttle-space-view>a:hover, #space-tools-body .look-and-feel .greyboxfilled, #spad-menu, #update-page-restrictions-dialog table.restrictions-dialog-table .restrictions-dialog-add-user-row, .RecentContentLoadingItem_confluence-icon-loading__1G_3b, .RecentContentLoadingItem_result-item-metadata-loading__81MqS, .RecentContentLoadingItem_result-item-title-loading__1rMRx, .RecentSpaceLoadingItem_recent-space-item-icon-loading__38bx_, .RecentSpaceLoadingItem_recent-space-title-loading__11GMh, .SearchSelect_search-filter-drop-down__4TTsO, .attachments tbody tr.hovered, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar thead, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-header, .blog-post-list li.blog-item:hover, .csi-document-list .csi-embed-list-content table.aui tr.csi-highlighted-row, .dashboard-calendar .events li.active, .dashboard-calendar .events li.highlighted, .data-table tr.selected, .data-table tr.selected a, .data-table tr.selected td, .diff-macro .diff-macro-properties, .diff-macro .diff-macro-properties td, .diff-macro .diff-macro-properties th, .eJTYOk.eJTYOk:hover, .fancy-select ol li:hover, .fc-state-highlight, .fnl2pxy, .linchpin-navigation-menus ul.level-0>li:hover, .macro-list-item:hover, .permissions tr:nth-child(2n), .recommendation:hover, .rlabs-manage-row:hover, .rlabs-manage-section.rlabs-manage-section-header .rlabs-manage-row:hover, .rlabs-object-row .ascending, .rlabs-object-row .descending, .rwui_body table.confluenceTable, aui-inline-dialog.tf-inline-filters .aui-inline-dialog-contents div.tableFilterCbStyle, div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dd-trigger:hover, div.plugin-calendar .sub-calendar-panel .subcalendar-item .child-subcalendars .child-subcalendar.active-child-subcalendar, select option, table.aui tbody tr.selected, tr.row[data-v-78d18044]:hover, ul.image-list li.image-effect-preview.hover, ul.rlabs-intro-whats-new li:hover {
+    #autocomplete-dropdown .aui-dropdown.fabric ol li.active, #autocomplete-dropdown .aui-dropdown.fabric ol li.active span, #com-atlassian-confluence div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dropdown li, #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort):hover, #move-page-dialog .search-results .hover td, #move-page-dialog .search-results .hover th, #move-page-dialog .ui-tree li a.current-parent, #mw-container .mw-notification-item.unread, #mw-container .mw-show-more:hover, #rte-toolbar #color-picker-control:active .aui-button, #rte-toolbar #table-highlight-group:active .aui-button, #space-admin-body .look-and-feel .greyboxfilled, #space-shuttle-container .space-shuttle-wrap .space-shuttle-view .space-shuttle-view-content .space-shuttle-spaces-view .space-shuttle-space-view>a:hover, #space-tools-body .look-and-feel .greyboxfilled, #spad-menu, #update-page-restrictions-dialog table.restrictions-dialog-table .restrictions-dialog-add-user-row, .RecentContentLoadingItem_confluence-icon-loading__1G_3b, .RecentContentLoadingItem_result-item-metadata-loading__81MqS, .RecentContentLoadingItem_result-item-title-loading__1rMRx, .RecentSpaceLoadingItem_recent-space-item-icon-loading__38bx_, .RecentSpaceLoadingItem_recent-space-title-loading__11GMh, .SearchSelect_search-filter-drop-down__4TTsO, .attachments tbody tr.hovered, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar thead, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-header, .blog-post-list li.blog-item:hover, .csi-document-list .csi-embed-list-content table.aui tr.csi-highlighted-row, .dashboard-calendar .events li.active, .dashboard-calendar .events li.highlighted, .data-table tr.selected, .data-table tr.selected a, .data-table tr.selected td, .diff-macro .diff-macro-properties, .diff-macro .diff-macro-properties td, .diff-macro .diff-macro-properties th, .eJTYOk.eJTYOk:hover, .fancy-select ol li:hover, .fc-state-highlight, .fnl2pxy, .linchpin-navigation-menus ul.level-0>li:hover, .list-container-popular-stream .stream-item:hover, .macro-list-item:hover, .permissions tr:nth-child(2n), .recommendation:hover, .rlabs-manage-row:hover, .rlabs-manage-section.rlabs-manage-section-header .rlabs-manage-row:hover, .rlabs-object-row .ascending, .rlabs-object-row .descending, .rwui_body table.confluenceTable, aui-inline-dialog.tf-inline-filters .aui-inline-dialog-contents div.tableFilterCbStyle, div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dd-trigger:hover, div.plugin-calendar .sub-calendar-panel .subcalendar-item .child-subcalendars .child-subcalendar.active-child-subcalendar, select option, table.aui tbody tr.selected, tr.row[data-v-78d18044]:hover, ul.image-list li.image-effect-preview.hover, ul.rlabs-intro-whats-new li:hover {
       background-color: #2e2e2e !important
     }
 
@@ -1189,7 +1210,7 @@
       filter: saturate(0) invert(.6) !important
     }
 
-    .cp-unknown-file-type-view a.download-button span.icon-download, .jql-display-opts-close span, .no-results.empty-results-message, .no-results.empty-results-message h3, a.jql-display-opts-open span, div.timeline-navigation-delete, div.timeline-navigation-move-left, div.timeline-navigation-move-right, div.timeline-navigation-new, div.timeline-navigation-zoom-in, div.timeline-navigation-zoom-out, p.no-results-hint, table.wysiwyg-macro>tbody {
+    .cp-unknown-file-type-view a.download-button span.icon-download, .jql-display-opts-close span, a.jql-display-opts-open span, div.timeline-navigation-delete, div.timeline-navigation-move-left, div.timeline-navigation-move-right, div.timeline-navigation-new, div.timeline-navigation-zoom-in, div.timeline-navigation-zoom-out, table.wysiwyg-macro>tbody {
       filter: invert(1) !important
     }
 
@@ -1211,7 +1232,7 @@
       color: #ccc !important
     }
 
-    div.tableFilterCbStyle div.tf-hider {
+    .linchpin-navigation-menus, div.tableFilterCbStyle div.tf-hider {
       display: none !important
     }
 
@@ -1249,15 +1270,6 @@
 
     .RecentItemsContainer_recent-page-container__3ic8- a:focus, .upm-plugin-row, a[title="Download Code"]:hover {
       background: #2e2e2e !important
-    }
-
-    .jira-tablesorter-header:hover, .jira-tablesorter-header:hover .jim-table-header-content {
-      background-color: #1e1e1e !important;
-      color: #ddd !important
-    }
-
-    .rlabs-panel-box-empty, .wiki-content blockquote {
-      border-color: #aaa !important
     }
 
     * {
@@ -1505,7 +1517,7 @@
       border-color: #957c35 !important
     }
 
-    .aui-dialog .dialog-button-panel button.button-panel-button[disabled], .aui-dialog .dialog-button-panel button.button-panel-button[disabled]:active, .aui-dialog .dialog-button-panel button.button-panel-button[disabled]:focus, .aui-dialog .dialog-button-panel button.button-panel-button[disabled]:hover {
+    .aui-dialog .dialog-button-panel button.button-panel-button[disabled], .aui-dialog .dialog-button-panel button.button-panel-button[disabled]:active, .aui-dialog .dialog-button-panel button.button-panel-button[disabled]:focus, .aui-dialog .dialog-button-panel button.button-panel-button[disabled]:hover, .aui-progress-indicator {
       background-color: #555 !important
     }
 
@@ -2149,6 +2161,11 @@
 
     #enb-bottom-section a.open-enb-space-overlay:active, #enb-bottom-section a.open-enb-space-overlay:focus, #enb-bottom-section a.open-enb-space-overlay:hover, #enb-bottom-section a.open-enb-space-overlay:link, #enb-bottom-section a.open-enb-space-overlay:visited, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:active, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:focus, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:hover, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:link, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:visited, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton .space-categories-social-container a.open-enb-space-overlay:active, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton .space-categories-social-container a.open-enb-space-overlay:focus, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton .space-categories-social-container a.open-enb-space-overlay:hover, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton .space-categories-social-container a.open-enb-space-overlay:link, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton .space-categories-social-container a.open-enb-space-overlay:visited {
       background-color: #3e424a !important
+    }
+
+    .jira-tablesorter-header:hover, .jira-tablesorter-header:hover .jim-table-header-content {
+      background-color: #2e2e2e !important;
+      color: #ddd !important
     }
   }
 }
