@@ -1,7 +1,7 @@
 /*
   Confluence and Jira dark mode by Jannis Gipp
-  Version: v1.6.3
-  Changes: small adjustments
+  Version: v1.7
+  Changes: added support for new EPG blog on confluence
 */
 @media (prefers-color-scheme:dark) {
   @-moz-document domain(support.epg.com) {
@@ -9,7 +9,7 @@
       --aui-button-default-text-color: #a0aec6 !important
     }
 
-    #activity-stream-show-more span, #content, #page, #rw_customer_portal, #rw_header #rw_breadcrumbs ul li>*, #rw_header #rw_breadcrumbs ul li>a:hover, #rw_header #rw_my_menu ul li>*, #rw_header .rw_header_background .rw_preview_background, #rw_header.rw_navigation_mode_menu #rw_navigation_menu .rw_mobile_navigation_button, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a.rw_active, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a:hover, #rw_site_switcher .rw_item_icon, #stream-title-edit, .aui-button.active:not(.aui-button-link).aui-button-subtle, .aui-button.active:not(.aui-button-link).aui-button-subtle div, .aui-button.active:not(.aui-button-link).aui-button-subtle span, .aui-button.aui-button-subtle:active, .aui-button.aui-button-subtle:active *, .aui-button.aui-button-subtle:focus, .aui-button.aui-button-subtle:focus *, .aui-button.aui-button-subtle:hover, .aui-button.aui-button-subtle:hover *, .aui-header .aui-quicksearch input, .aui-header .aui-quicksearch input:focus, .count-pagination>*>:active .aui-icon-small::before, .count-pagination>*>:focus .aui-icon-small::before, .count-pagination>*>:hover .aui-icon-small::before, .css-1gx8lri, .ghx-detail-issue, .iamReference__label, .iqMyKm, .ruiButton, .rw_request_participants_module ul.rw_request_actions li a .rw_item_content, .rw_request_participants_module ul.rw_request_actions li a .rw_item_icon, body, h1, h2, h3, h4 {
+    #activity-stream-show-more span, #content, #page, #rw_customer_portal, #rw_header #rw_breadcrumbs ul li>*, #rw_header #rw_breadcrumbs ul li>a:hover, #rw_header #rw_my_menu ul li>*, #rw_header .rw_header_background .rw_preview_background, #rw_header.rw_navigation_mode_menu #rw_navigation_menu .rw_mobile_navigation_button, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a.rw_active, #rw_header.rw_navigation_mode_menu #rw_navigation_menu ul li a:hover, #rw_site_switcher .rw_item_icon, #stream-title-edit, .aui-button.active:not(.aui-button-link).aui-button-subtle, .aui-button.active:not(.aui-button-link).aui-button-subtle div, .aui-button.active:not(.aui-button-link).aui-button-subtle span, .aui-button.aui-button-subtle:active, .aui-button.aui-button-subtle:active *, .aui-button.aui-button-subtle:focus, .aui-button.aui-button-subtle:focus *, .aui-button.aui-button-subtle:hover, .aui-button.aui-button-subtle:hover *, .aui-header .aui-quicksearch input, .aui-header .aui-quicksearch input:focus, .count-pagination>*>:active .aui-icon-small::before, .count-pagination>*>:focus .aui-icon-small::before, .count-pagination>*>:hover .aui-icon-small::before, .css-1gx8lri, .ghx-detail-issue, .iamReference__label, .iqMyKm, .rlabs-badge, .ruiButton, .rw_request_participants_module ul.rw_request_actions li a .rw_item_content, .rw_request_participants_module ul.rw_request_actions li a .rw_item_icon, body, h1, h2, h3, h4 {
       color: #fff !important
     }
 
@@ -154,7 +154,7 @@
       color: #bfbfbf !important
     }
 
-    #attachmentmodule #attachment_thumbnails.item-attachments .attachment-content:hover, #gh:not(.ghx-sticky-sprint-headers-disabled) .ghx-backlog-container .ghx-backlog-header, #rw_admin_pages, #rw_wrapper.rw_browse_files .rw_upload_files, #rw_wrapper.rw_browse_files .rw_upload_files .rw_item_toolbar, #rw_wrapper.rw_show_files .rw_upload_files, #rw_wrapper.rw_show_files .rw_upload_files .rw_item_toolbar, #sd-feature-tour-dialog .sd-feature-tour-dialog-header, #sla-web-panel-react-root>div>div>div:first-child>div, .DCM4UYPyyL, ._3K3OaEXvSA:hover, .aui-dialog2, .aui-dialog2-content, .aui-sidebar-body .aui-page-header, .c3-tooltip th, .css-dz9z01, .cv-request-group-name:hover, .details-layout .split-view .list-results-panel .list-panel .issue-list>li.focused, .details-layout>.loading, .editable-field.active, .ghx-backlog-container, .ghx-detail-contents .ghx-detail-view-blanket, .iamAssetDetailHeader--solid, .iamWidgetContainer, .page-type-split .navigator-group, .quicksearch-dropdown, .ruiDialog, .ruiDialog .iamAssetDetail, .ruiDialog .iamAttributes .iamItemListContainer__list, .ruiDialog .iamAttributes.iamListContainer, .ruiDialog .iamItemListContainer__list__item, .ruiDialog .ruiLayout__section, .ruiTabPage, .rw_admin_primary_menu, .rw_admin_primary_menu.rw_transparent_mode ul, .rw_inline_dialog, .rw_inline_dialog>.rw_toolbar, .rw_project_configuration .rw_site_card, .rw_search_dialog .rw_dialog, .rw_search_dialog .rw_dialog .rw_search_header, .rw_section_contents .aui-page-header, .shifter-dialog, .shifter-dialog .aui-list .aui-list-scroll, .split-view .list-results-panel .count-pagination, form.aui:not(.aui-legacy-forms) .multi-select, table.aui.ghx-hover-highlight tbody tr:hover, table.sd-agents-table>tbody>tr:hover, td[bgcolor="#f0f0f0"], ul.labels li .lozenge {
+    #attachmentmodule #attachment_thumbnails.item-attachments .attachment-content:hover, #gh:not(.ghx-sticky-sprint-headers-disabled) .ghx-backlog-container .ghx-backlog-header, #rw_admin_pages, #rw_wrapper.rw_browse_files .rw_upload_files, #rw_wrapper.rw_browse_files .rw_upload_files .rw_item_toolbar, #rw_wrapper.rw_show_files .rw_upload_files, #rw_wrapper.rw_show_files .rw_upload_files .rw_item_toolbar, #sd-feature-tour-dialog .sd-feature-tour-dialog-header, #sla-web-panel-react-root>div>div>div:first-child>div, .DCM4UYPyyL, ._3K3OaEXvSA:hover, .aui-dialog2, .aui-dialog2-content, .aui-sidebar-body .aui-page-header, .c3-tooltip th, .css-dz9z01, .cv-request-group-name:hover, .details-layout .split-view .list-results-panel .list-panel .issue-list>li.focused, .details-layout>.loading, .editable-field.active, .ghx-backlog-container, .ghx-detail-contents .ghx-detail-view-blanket, .iamAssetDetailHeader--solid, .iamWidgetContainer, .page-type-split .navigator-group, .quicksearch-dropdown, .rowNormal, .ruiDialog, .ruiDialog .iamAssetDetail, .ruiDialog .iamAttributes .iamItemListContainer__list, .ruiDialog .iamAttributes.iamListContainer, .ruiDialog .iamItemListContainer__list__item, .ruiDialog .ruiLayout__section, .ruiTabPage, .rw_admin_primary_menu, .rw_admin_primary_menu.rw_transparent_mode ul, .rw_inline_dialog, .rw_inline_dialog>.rw_toolbar, .rw_project_configuration .rw_site_card, .rw_search_dialog .rw_dialog, .rw_search_dialog .rw_dialog .rw_search_header, .rw_section_contents .aui-page-header, .shifter-dialog, .shifter-dialog .aui-list .aui-list-scroll, .split-view .list-results-panel .count-pagination, form.aui:not(.aui-legacy-forms) .multi-select, table.aui.ghx-hover-highlight tbody tr:hover, table.sd-agents-table>tbody>tr:hover, td[bgcolor="#f0f0f0"], ul.labels li .lozenge {
       background-color: #0e0e0e !important
     }
 
@@ -361,7 +361,7 @@
       background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0, #0e0e0e 100%) !important
     }
 
-    .css-1rahso {
+    .css-1rahso, table[bgcolor="#ffffff"], table[bgcolor="#ffffff"] table, tr[bgcolor="#f0f0f0"] {
       background: #202020 !important
     }
 
@@ -422,7 +422,7 @@
       background-color: #2e2e2e !important
     }
 
-    #search-results-table tbody tr:hover, .css-19ju8bk-option, .cv-custom-help-center-branding .cp-header .cv-header-nav-button:hover, .daterangepicker td.available:hover, .daterangepicker th.available:hover, .ghx-drag-in-progress .ghx-backlog-container.ghx-kanban-backlog .ghx-no-issues .ghx-helper, .ghx-drag-in-progress .ghx-backlog-container.ghx-open .ghx-no-issues .ghx-helper, .ghx-zone-cell, .issue-data-block.focused, .recipients li:hover, .ruiButton:not(.ruiButton--link):hover, .ruiList__item:not(.ruiList__item--is-selected) .ruiList__item__label:not([disabled]):hover, .ruiTable__row--menu-active, .ruiTable__row--with-menu:hover, td[bgcolor="#bbbbbb"] {
+    #search-results-table tbody tr:hover, .css-19ju8bk-option, .cv-custom-help-center-branding .cp-header .cv-header-nav-button:hover, .daterangepicker td.available:hover, .daterangepicker td.in-range:hover, .daterangepicker th.available:hover, .ghx-drag-in-progress .ghx-backlog-container.ghx-kanban-backlog .ghx-no-issues .ghx-helper, .ghx-drag-in-progress .ghx-backlog-container.ghx-open .ghx-no-issues .ghx-helper, .ghx-zone-cell, .issue-data-block.focused, .recipients li:hover, .ruiButton:not(.ruiButton--link):hover, .ruiList__item:not(.ruiList__item--is-selected) .ruiList__item__label:not([disabled]):hover, .ruiTable__row--menu-active, .ruiTable__row--with-menu:hover, td[bgcolor="#bbbbbb"] {
       background-color: #3e3e3e !important
     }
 
@@ -612,6 +612,10 @@
       border-right-color: #ccc !important
     }
 
+    .formtitle, .iic-widget__summary {
+      border-color: #535353 !important
+    }
+
     .ghx-tv-message, .ghx-tv-message .ghx-divider {
       color: #e8dd87 !important
     }
@@ -644,7 +648,6 @@
     }
 
     .iic-widget__summary {
-      border-color: #535353 !important;
       color: #fff !important
     }
 
@@ -721,6 +724,39 @@
     .jira-tablesorter-header:hover, .jira-tablesorter-header:hover .jim-table-header-content {
       background-color: #1e1e1e !important;
       color: #ddd !important
+    }
+
+    .daterangepicker td.in-range {
+      background-color: #4e4e4e !important;
+      color: #fff !important
+    }
+
+    .daterangepicker td.end-date, .daterangepicker td.start-date {
+      background-color: #357ebd !important
+    }
+
+    .daterangepicker td.end-date:hover, .daterangepicker td.start-date:hover {
+      background-color: #296aa2 !important
+    }
+
+    .daterangepicker .calendar-table .next span, .daterangepicker .calendar-table .prev span {
+      border-color: #fff !important
+    }
+
+    #workflow-designer1 rect[fill="#ffffff"] {
+      fill: #1e1e1e !important
+    }
+
+    #workflow-designer1 ellipse[fill="#c0c0c0"] {
+      fill: #888 !important
+    }
+
+    small {
+      color: #979fae !important
+    }
+
+    form.aui:not(.aui-legacy-forms) select.select:not([size]) {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23979fae' d='M6.744 8.744a1.053 1.053 0 000 1.49l4.547 4.557a1 1 0 001.416 0l4.55-4.558a1.051 1.051 0 10-1.488-1.488l-3.77 3.776-3.768-3.776a1.051 1.051 0 00-1.487 0z'/%3E%3C/svg%3E") !important
     }
   }
 
@@ -821,15 +857,15 @@
       --aui-datepicker-option-unselectable-bg-color: #555555 !important
     }
 
-    #full-height-container, #main-header, #rlabs-content-main, .itn-card>.itn-card-content, .itn-wrapper, .linchpin-navigation-menus, .panelContent[style="background-color: #fff;"], .rlabs-center-panel, .rlabs-center-panel-details, .rlabs-object-overview-buttons, .rlabs-object-section-refresh, .stickable .stick, .stickable .stuck, body, body.error-page #main-header, body.profile .user-profile .aui-navgroup-horizontal, table.aui.tablesorter.metadata-summary-macro>thead>tr>th {
+    #full-height-container, #main-header, #page-sub-header, #rlabs-content-main, #sub-header, .itn-card>.itn-card-content, .itn-wrapper, .linchpin-navigation-menus, .panelContent[style="background-color: #fff;"], .rlabs-center-panel, .rlabs-center-panel-details, .rlabs-object-overview-buttons, .rlabs-object-section-refresh, .stickable .stick, .stickable .stuck, body, body.error-page #main-header, body.profile .user-profile .aui-navgroup-horizontal, table.aui.tablesorter.metadata-summary-macro>thead>tr>th, ul.level-0 {
       background-color: #202020 !important
     }
 
-    #inline-dialog-cp-dialog-version .versionFiles li.current .title, #main-header-placeholder>h1.with-breadcrumbs>a, #mw-container .mw-drilldown-top .mw-drilldown-back, #space-tools-menu-trigger.active>span, #space-tools-menu-trigger:active>span, #space-tools-menu-trigger:focus>span, #space-tools-menu-trigger:hover>span, #tinymce [style="color: #000000; letter-spacing: 0.0px;"], #tinymce [style="color: #000000;"], #tinymce [style="color: rgb(0,0,0)"], #title-text a, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a, #upm-container, .add-all-action.aui-button:active, .add-all-action.aui-button:focus, .add-all-action.aui-button:hover, .aui-button.add-template:active, .aui-button.add-template:focus, .aui-button.add-template:hover, .aui-button.manage-template:active, .aui-button.manage-template:focus, .aui-button.manage-template:hover, .aui-button:focus a, .aui-button:hover a, .aui-lozenge-error, .aui-lozenge-removed, .aui-lozenge-success, .aui-sidebar .aui-nav-item-label, .autocomplete li a span, .csi-tooltip .tipsy-inner a:hover, .form-element-large, .form-element-small, .formtitle, .itn-card-header>h2.itn-card-title>a, .pagetitle, .rwui_button>.rwui_icon, .rwui_button>span.rwui_content, .rwui_expandable_item.rw_open>.rwui_expandable_item_title, .rwui_text_box.rwui_id_67a26226-50ee-425b-833e-83031ddf6d28 :not(.rwui_content), .sp-select-button-wrapper .sp-select-button .sp-select-label, .steptitle, .substeptitle, .wiki-content .tablesorter-header-inner, .wiki-content h1, .wiki-content h2:not(.itn-card-title), .wiki-content h3, .wiki-content h4, [style="color: rgb(0, 0, 0);"], [style="color: rgb(112,112,112);"], [style="color: rgb(51,51,51);"], a.blogHeading, a:active, a:focus, a:hover, body, h1, h2:not(.itn-card-title), h3, h4, li.acs-nav-item .acs-nav-item-link, li.parent-item .parent-item-link, span[style="color: rgb(0,0,0);"], table.admin th, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight>p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh>p {
+    #inline-dialog-cp-dialog-version .versionFiles li.current .title, #main-header-placeholder>h1.with-breadcrumbs>a, #mw-container .mw-drilldown-top .mw-drilldown-back, #space-tools-menu-trigger.active>span, #space-tools-menu-trigger:active>span, #space-tools-menu-trigger:focus>span, #space-tools-menu-trigger:hover>span, #tinymce [style="color: #000000; letter-spacing: 0.0px;"], #tinymce [style="color: #000000;"], #tinymce [style="color: rgb(0,0,0)"], #title-text a, #toolbar #format-dropdown .format-h1 a, #toolbar #format-dropdown .format-h2 a, #toolbar #format-dropdown .format-h3 a, #toolbar #format-dropdown .format-h4 a, #upm-container, .add-all-action.aui-button:active, .add-all-action.aui-button:focus, .add-all-action.aui-button:hover, .aui-button.add-template:active, .aui-button.add-template:focus, .aui-button.add-template:hover, .aui-button.manage-template:active, .aui-button.manage-template:focus, .aui-button.manage-template:hover, .aui-button:focus a, .aui-button:hover a, .aui-lozenge-error, .aui-lozenge-removed, .aui-lozenge-success, .aui-sidebar .aui-nav-item-label, .autocomplete li a span, .csi-tooltip .tipsy-inner a:hover, .form-element-large, .form-element-small, .formtitle, .itn-card-header>h2.itn-card-title>a, .micropost-action-menu>button>span::before, .pagetitle, .rwui_button>.rwui_icon, .rwui_button>span.rwui_content, .rwui_expandable_item.rw_open>.rwui_expandable_item_title, .rwui_text_box.rwui_id_67a26226-50ee-425b-833e-83031ddf6d28 :not(.rwui_content), .sp-select-button-wrapper .sp-select-button .sp-select-label, .steptitle, .substeptitle, .wiki-content .tablesorter-header-inner, .wiki-content h1, .wiki-content h2:not(.itn-card-title), .wiki-content h3, .wiki-content h4, [data-macro-name=aura-button]>a>span, [style="color: rgb(0, 0, 0);"], [style="color: rgb(112,112,112);"], [style="color: rgb(51,51,51);"], a.blogHeading, a:active, a:focus, a:hover, body, body .aui-button.aui-button-subtle:not(.aui-button-primary).active, body .aui-button:not(.aui-button-primary):active, h1, h2:not(.itn-card-title), h3, h4, li.acs-nav-item .acs-nav-item-link, li.parent-item .parent-item-link, span[style="color: rgb(0,0,0);"], table.admin th, table.confluenceTable td.confluenceTd.highlight, table.confluenceTable td.confluenceTd.highlight>p, table.confluenceTable th.confluenceTh, table.confluenceTable th.confluenceTh>p {
       color: #fff !important
     }
 
-    #footer-logo, .aui-page-panel, .content-header {
+    #footer-logo, .aui-page-panel, .content-header, [style="padding:20px; background-repeat:no-repeat; background-size:cover; flex-direction:column; display:flex; width:100%; min-height:250px; justify-content:center; background-image:linear-gradient(#e7e7e7, #e7e7e7); background-position:center center; box-sizing:border-box"], [style="padding:20px; background-repeat:no-repeat; background-size:cover; flex-direction:column; display:flex; width:100%; min-height:250px; justify-content:center; background-image:linear-gradient(#ffffff, #ffffff); background-position:center center; box-sizing:border-box"] {
       background: #202020 !important
     }
 
@@ -837,7 +873,7 @@
       background-color: #0e0e0e !important
     }
 
-    #insert-menu .aui-dropdown .icon, #rte-toolbar #color-picker-control:active .aui-button .aui-icon, #rte-toolbar #table-highlight-group:active .aui-button .aui-icon, .CheckboxListItem_checkbox-list-item-component__3FNWN button, .RecentContentItem_result-item-title__f9hg-, .RecentSpaceItem_recent-space-title__qUP_R, .SearchContentItem_content-title__tMLba, .SearchSelect_search-filter-drop-down__4TTsO, .aui-button.add-template, .aui-button.aui-button-link, .aui-button.manage-template, .aui-dialog .dialog-page-menu li.page-menu-item button.item-button, .aui-navgroup-horizontal .aui-nav>li a, .aui-toolbar .aui-buttons .toolbar-item-link button.toolbar-trigger, .aui-toolbar .aui-buttons .toolbar-item-link:hover button.toolbar-trigger, .cover-stories-container .social-section-container>span a>span, .cv-request-options a .aui-icon, .expand-control-text, .ia-secondary-content .acs-tree-item .navigation-pseudo-link, .label-list .labels-edit-container .aui-iconfont-devtools-tag-small, .list-container a:not(.aui-button), .news-center-result-container .social-section-container>span a>span, .news-feed-macro .social-section-container>span a>span, .news-magazine-module .social-section-container>span a>span, a:not(.aui-button, .aui-dialog2-header-close, .issueaction-aui-icon):not(.disabled), body.spaces .aui-tabs>.tabs-menu .menu-item a, body.spaces .aui-tabs>.tabs-menu .menu-item a:link, body.spaces .aui-tabs>.tabs-menu .menu-item a:visited, div.plugin-calendar .fc .fc-view-month .fc-day-number, div.plugin-calendar .sub-calendar-panel .subcalendar-item .child-subcalendars, div.plugin-calendar .sub-calendar-panel .subcalendar-item .subcalendar-name.header-color, header#header nav.aui-header .aui-dropdown2-section a {
+    #insert-menu .aui-dropdown .icon, #rte-toolbar #color-picker-control:active .aui-button .aui-icon, #rte-toolbar #table-highlight-group:active .aui-button .aui-icon, .CheckboxListItem_checkbox-list-item-component__3FNWN button, .RecentContentItem_result-item-title__f9hg-, .RecentSpaceItem_recent-space-title__qUP_R, .SearchContentItem_content-title__tMLba, .SearchSelect_search-filter-drop-down__4TTsO, .aui-button.add-template, .aui-button.aui-button-link, .aui-button.manage-template, .aui-dialog .dialog-page-menu li.page-menu-item button.item-button, .aui-navgroup-horizontal .aui-nav>li a, .aui-toolbar .aui-buttons .toolbar-item-link button.toolbar-trigger, .aui-toolbar .aui-buttons .toolbar-item-link:hover button.toolbar-trigger, .cover-stories-container .social-section-container>span a>span, .cv-request-options a .aui-icon, .expand-control-text, .ia-secondary-content .acs-tree-item .navigation-pseudo-link, .label-list .labels-edit-container .aui-iconfont-devtools-tag-small, .list-container a:not(.aui-button), .microblog-search .search-actions .microblog-clear-search-button::before, .news-center-result-container .social-section-container>span a>span, .news-feed-macro .social-section-container>span a>span, .news-magazine-module .social-section-container>span a>span, :not(ul.level-0>li)>*>a:not(.aui-button, .aui-dialog2-header-close, .issueaction-aui-icon):not(.disabled), body.spaces .aui-tabs>.tabs-menu .menu-item a, body.spaces .aui-tabs>.tabs-menu .menu-item a:link, body.spaces .aui-tabs>.tabs-menu .menu-item a:visited, div.plugin-calendar .fc .fc-view-month .fc-day-number, div.plugin-calendar .sub-calendar-panel .subcalendar-item .child-subcalendars, div.plugin-calendar .sub-calendar-panel .subcalendar-item .subcalendar-name.header-color, header#header nav.aui-header .aui-dropdown2-section a {
       color: #88aeee !important
     }
 
@@ -983,7 +1019,7 @@
       border: #1e1e1e !important
     }
 
-    #add-calendar-inline-dialog .add-calendar-options li, #attachmentmodule #file_attachments .attachment-content:not(:last-child), #autocomplete-dropdown .aui-dropdown ol.top-menu-item, #com-atlassian-confluence .aui-dd-parent .aui-dropdown, #com-atlassian-confluence div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dropdown li.section-end, #comments-section .comment, #comments-section .comment-body form .editor-container, #create-dialog .create-dialog-location-bar, #create-dialog .template, #hipchat-confluence-configure .hipchat-integration-steps, #ic-resolved-comment-dialog .ic-display-comment-view, #insert-link-dialog .dialog-page-body .location-info, #keyboard-shortcuts-dialog h3, #likes-dialog-body>ol>li, #main #main-header.overlay-header, #main-content .page-metadata, #move-page-dialog .browse-panel .information, #move-page-dialog .location-info, #mw-container .mw-drilldown-header, #mw-container .mw-footer, #mw-container .mw-header, #property-panel .editable, #rlabs-header, #rte-savebar, #rte-toolbar .aui-buttons, #search-help-dialog pre, #search-results-header, #space-search-result, #space-shuttle-container .space-shuttle-wrap .space-shuttle-view, #space-shuttle-container .space-shuttle-wrap .space-shuttle-view .space-shuttle-view-content .categories-wrap .space-shuttle-view-breadcrumb, #splash-dialog-content, #update-page-restrictions-dialog .aui-dialog2-content .page-restrictions-dialog-top, #upm-link-bar, .SearchSelect_search-select-component__11Flk .typeahead-component[type=text], .SearchSelect_toggle-container__wX27b, .ajs-content-hover .actions ul.ajs-menu-bar .popup-follow, .ajs-content-hover .vcard, .ajs-menu-bar .ajs-drop-down ul, .ajs-menu-bar ul.ajs-drop-down, .attachments .attachment-row, .aui-button.aui-button-subtle.handy-whats-new-hl, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar>thead>tr>th, .aui-dialog .dialog-button-panel, .aui-dialog .dialog-page-menu, .aui-dialog .dialog-title, .aui-dialog2-footer, .aui-dialog2-header, .aui-dropdown ol, .aui-sidebar[aria-expanded=false] .aui-sidebar-group~.aui-sidebar-group, .aui-toolbar .grouped .grouped-dropdown-item, .basicPanelContainer, .blank-experience-container, .blank-placeholder-box, .blog-post-list h4.sub-heading, .blog-post-list li.blog-item, .blog-post-listing+.blog-post-listing, .confluence-information-macro-information, .csi-embed-wrapper.csi-embed-style-preview .csi-embed-meta, .cup-profile-edit #two-columns+div[data-v-3d53520c], .dashboard-calendar .calendar-heading, .dashboard-calendar .event-group .events li, .diff-macro .diff-macro-properties, .diff-menu, .ect-language-option-div-wrap, .event-edit div.field-group-event-type, .handy-task-adder-controls, .handy-task-adder-controls-container button.save, .help-panel, .ic-page-comment .ic-page-comment-message-container, .ic-page-comment .resolved-message-container, .ic-resolved-mask .ic-page-comment-message-container, .ic-resolved-mask .resolved-message-container, .issue-list>li, .labelsAlphaList>ol>li .labelsAlphaKey, .login #main.aui-page-panel, .login-section h2, .macro-blank-experience, .macro-list-item .macro-icon-holder, .macro-list-item img, .macro-preview-container, .macro-preview-header, .more-link-container, .page-context .cup-profile-macro, .panel, .pivot-controls form.aui, .profile-page .profile-main, .recently-updated-social .update-item-error, .rlabs-center-panel, .rlabs-graph-sidebar-content .rlabs-objects-bucket ul.rlabs-object-list>li .rlabs-details, .rlabs-manage-section.rlabs-manage-section-header, .rwui_children_cards .rwui_item, .rwui_step .rwui_item_content, .signup-section h2, .sp-header-grid-row, .spaceList td, .subcalendar-wizard .add-calendar-options li, .subcalendar-wizard .subcalendar-types li, .uploader-section .aui-item.description, .upm-plugin-list, .upm-plugin-list .upm-plugin, .upm-plugin-recommendations, .userpassword-section h2, .vp-activity-title, .wiki-content .confluence-content-image-border, .wiki-content .panel.conf-macro, .wiki-edit-separate-section, .wiki-edit-toolbar .aui-buttons+.aui-buttons, body #page #footer, body.content-preview .page-metadata, body.dashboard #main-header, body.error-page #main-header, body.profile #cup-profile .catContainer h2, body.profile .user-profile .buttons-container, body.profile .user-profile .profile-menu, body.spaces #main, body.spaces #main-header, div.plugin-calendar .fc-widget-content, div.plugin-calendar .fc-widget-header, div.tableFilterCbStyle, div.timeline-axis-grid-minor, div.timeline-frame, form.aui .aui-select2-container.space-picker-container, form.aui .aui-select2-container.users-autocomplete, form.aui.aui-legacy-forms .aui-select2-container .select2-choices, form.aui.aui-legacy-forms .multi-select, form.aui.aui-legacy-forms .password, form.aui.aui-legacy-forms .select, form.aui.aui-legacy-forms .text, form.aui.aui-legacy-forms .textarea, hr, li.addNewCustomEventType, ol.comment-threads.top-level, table.aui.content-report-table-macro>tbody>tr:first-child>td, table.aui.content-report-table-macro>tbody>tr:first-child>th, table.aui.content-report-table-macro>tfoot>tr:first-child>td, table.aui:not(.aui-table-list)>tbody>tr>td, table.aui:not(.aui-table-list)>tbody>tr>th, table.aui:not(.aui-table-list)>tfoot>tr>td, table.aui:not(.aui-table-list)>tfoot>tr>th, table.aui>tbody>tr:first-child>td, table.aui>tbody>tr:first-child>th, table.aui>tfoot>tr:first-child>td, table.aui>tfoot>tr:first-child>th, ul.inline-task-list>li.handy-task-filters, ul.inline-task-list>li.handy-task-list-progress {
+    #add-calendar-inline-dialog .add-calendar-options li, #attachmentmodule #file_attachments .attachment-content:not(:last-child), #autocomplete-dropdown .aui-dropdown ol.top-menu-item, #com-atlassian-confluence .aui-dd-parent .aui-dropdown, #com-atlassian-confluence div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dropdown li.section-end, #comments-section .comment, #comments-section .comment-body form .editor-container, #create-dialog .create-dialog-location-bar, #create-dialog .template, #hipchat-confluence-configure .hipchat-integration-steps, #ic-resolved-comment-dialog .ic-display-comment-view, #insert-link-dialog .dialog-page-body .location-info, #keyboard-shortcuts-dialog h3, #likes-dialog-body>ol>li, #main #main-header.overlay-header, #main-content .page-metadata, #micropost-old-versions-dialog .micropost-old-version .aui-expander-content[aria-expanded=true], #move-page-dialog .browse-panel .information, #move-page-dialog .location-info, #mw-container .mw-drilldown-header, #mw-container .mw-footer, #mw-container .mw-header, #poll-blueprint-form div.aui-group div.aui-item:first-child, #property-panel .editable, #rlabs-header, #rte-savebar, #rte-toolbar .aui-buttons, #search-help-dialog pre, #search-results-header, #space-search-result, #space-shuttle-container .space-shuttle-wrap .space-shuttle-view, #space-shuttle-container .space-shuttle-wrap .space-shuttle-view .space-shuttle-view-content .categories-wrap .space-shuttle-view-breadcrumb, #splash-dialog-content, #update-page-restrictions-dialog .aui-dialog2-content .page-restrictions-dialog-top, #upm-link-bar, .SearchSelect_search-select-component__11Flk .typeahead-component[type=text], .SearchSelect_toggle-container__wX27b, .ajs-content-hover .actions ul.ajs-menu-bar .popup-follow, .ajs-content-hover .vcard, .ajs-menu-bar .ajs-drop-down ul, .ajs-menu-bar ul.ajs-drop-down, .aside, .attachments .attachment-row, .aui-avatar-inner, .aui-button.aui-button-subtle.handy-whats-new-hl, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar>thead>tr>th, .aui-dialog .dialog-button-panel, .aui-dialog .dialog-page-menu, .aui-dialog .dialog-title, .aui-dialog2-footer, .aui-dialog2-header, .aui-dropdown ol, .aui-sidebar[aria-expanded=false] .aui-sidebar-group~.aui-sidebar-group, .aui-toolbar .grouped .grouped-dropdown-item, .basicPanelContainer, .blank-experience-container, .blank-placeholder-box, .blog-post-list h4.sub-heading, .blog-post-list li.blog-item, .blog-post-listing+.blog-post-listing, .confluence-information-macro-information, .csi-embed-wrapper.csi-embed-style-preview .csi-embed-meta, .cup-profile-edit #two-columns+div[data-v-3d53520c], .dashboard-calendar .calendar-heading, .dashboard-calendar .event-group .events li, .diff-macro .diff-macro-properties, .diff-menu, .divider-side[style="border-bottom: 3px solid #e7e7e7;"], .ect-language-option-div-wrap, .event-edit div.field-group-event-type, .event-list .event-list-row, .eventheader, .handy-task-adder-controls, .handy-task-adder-controls-container button.save, .help-panel, .ic-page-comment .ic-page-comment-message-container, .ic-page-comment .resolved-message-container, .ic-resolved-mask .ic-page-comment-message-container, .ic-resolved-mask .resolved-message-container, .issue-list>li, .labelsAlphaList>ol>li .labelsAlphaKey, .login #main.aui-page-panel, .login-section h2, .macro-blank-experience, .macro-list-item .macro-icon-holder, .macro-list-item img, .macro-preview-container, .macro-preview-header, .more-link-container, .page-context .cup-profile-macro, .page-hierarchy-dialog .preview, .panel, .pdl .codeContent .gutter, .pivot-controls form.aui, .profile-page .profile-main, .recently-updated-social .update-item-error, .related-link-row[data-v-0d424021], .rlabs-center-panel, .rlabs-graph-sidebar-content .rlabs-objects-bucket ul.rlabs-object-list>li .rlabs-details, .rlabs-manage-section.rlabs-manage-section-header, .rwui_children_cards .rwui_item, .rwui_step .rwui_item_content, .search-view .search-panel .view-component-child-term-search, .select-avatar.tc-event-type-item .icon-teamcals, .signup-section h2, .sp-header-grid-row, .spaceList td, .subcalendar-wizard .add-calendar-options li, .subcalendar-wizard .subcalendar-types li, .uploader-section .aui-item.description, .upm-plugin-list, .upm-plugin-list .upm-plugin, .upm-plugin-recommendations, .userpassword-section h2, .vp-activity-title, .wiki-content .confluence-content-image-border, .wiki-content .panel.conf-macro, .wiki-edit-separate-section, .wiki-edit-toolbar .aui-buttons+.aui-buttons, body #page #footer, body.content-preview .page-metadata, body.dashboard #main-header, body.error-page #main-header, body.profile #cup-profile .catContainer h2, body.profile .user-profile .buttons-container, body.profile .user-profile .profile-menu, body.spaces #main, body.spaces #main-header, div.plugin-calendar .fc-widget-content, div.plugin-calendar .fc-widget-header, div.tableFilterCbStyle, div.timeline-axis-grid-minor, div.timeline-frame, form.aui .aui-select2-container.space-picker-container, form.aui .aui-select2-container.users-autocomplete, form.aui.aui-legacy-forms .aui-select2-container .select2-choices, form.aui.aui-legacy-forms .multi-select, form.aui.aui-legacy-forms .password, form.aui.aui-legacy-forms .select, form.aui.aui-legacy-forms .text, form.aui.aui-legacy-forms .textarea, form.aui.aui-legacy-forms aui-select button.aui-button, form.sub-calendar-edit-form .field-group-permissions .group-picker-trigger, h4[data-v-0d424021], hr, li.addNewCustomEventType, ol.comment-threads.top-level, table.aui.content-report-table-macro>tbody>tr:first-child>td, table.aui.content-report-table-macro>tbody>tr:first-child>th, table.aui.content-report-table-macro>tfoot>tr:first-child>td, table.aui:not(.aui-table-list)>tbody>tr>td, table.aui:not(.aui-table-list)>tbody>tr>th, table.aui:not(.aui-table-list)>tfoot>tr>td, table.aui:not(.aui-table-list)>tfoot>tr>th, table.aui>tbody>tr:first-child>td, table.aui>tbody>tr:first-child>th, table.aui>tfoot>tr:first-child>td, table.aui>tfoot>tr:first-child>th, ul.inline-task-list>li.handy-task-filters, ul.inline-task-list>li.handy-task-list-progress, ul.microblog-spaces-and-topics-multi-select li span.space-not-selected-icon, ul.microblog-spaces-and-topics-multi-select li span.space-partly-selected-icon, ul.microblog-spaces-and-topics-multi-select li span.space-selected-icon {
       border-color: #535353 !important
     }
 
@@ -1016,7 +1052,7 @@
       background: #2d2d2d !important
     }
 
-    #autocomplete-dropdown .aui-dropdown.fabric ol li.active, #autocomplete-dropdown .aui-dropdown.fabric ol li.active span, #com-atlassian-confluence div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dropdown li, #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort):hover, #move-page-dialog .search-results .hover td, #move-page-dialog .search-results .hover th, #move-page-dialog .ui-tree li a.current-parent, #mw-container .mw-notification-item.unread, #mw-container .mw-show-more:hover, #rte-toolbar #color-picker-control:active .aui-button, #rte-toolbar #table-highlight-group:active .aui-button, #space-admin-body .look-and-feel .greyboxfilled, #space-shuttle-container .space-shuttle-wrap .space-shuttle-view .space-shuttle-view-content .space-shuttle-spaces-view .space-shuttle-space-view>a:hover, #space-tools-body .look-and-feel .greyboxfilled, #spad-menu, #update-page-restrictions-dialog table.restrictions-dialog-table .restrictions-dialog-add-user-row, .RecentContentLoadingItem_confluence-icon-loading__1G_3b, .RecentContentLoadingItem_result-item-metadata-loading__81MqS, .RecentContentLoadingItem_result-item-title-loading__1rMRx, .RecentSpaceLoadingItem_recent-space-item-icon-loading__38bx_, .RecentSpaceLoadingItem_recent-space-title-loading__11GMh, .SearchSelect_search-filter-drop-down__4TTsO, .attachments tbody tr.hovered, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar thead, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-header, .blog-post-list li.blog-item:hover, .csi-document-list .csi-embed-list-content table.aui tr.csi-highlighted-row, .dashboard-calendar .events li.active, .dashboard-calendar .events li.highlighted, .data-table tr.selected, .data-table tr.selected a, .data-table tr.selected td, .diff-macro .diff-macro-properties, .diff-macro .diff-macro-properties td, .diff-macro .diff-macro-properties th, .eJTYOk.eJTYOk:hover, .fancy-select ol li:hover, .fc-state-highlight, .fnl2pxy, .linchpin-navigation-menus ul.level-0>li:hover, .list-container-popular-stream .stream-item:hover, .macro-list-item:hover, .permissions tr:nth-child(2n), .recommendation:hover, .rlabs-manage-row:hover, .rlabs-manage-section.rlabs-manage-section-header .rlabs-manage-row:hover, .rlabs-object-row .ascending, .rlabs-object-row .descending, .rwui_body table.confluenceTable, aui-inline-dialog.tf-inline-filters .aui-inline-dialog-contents div.tableFilterCbStyle, div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dd-trigger:hover, div.plugin-calendar .sub-calendar-panel .subcalendar-item .child-subcalendars .child-subcalendar.active-child-subcalendar, select option, table.aui tbody tr.selected, tr.row[data-v-78d18044]:hover, ul.image-list li.image-effect-preview.hover, ul.rlabs-intro-whats-new li:hover {
+    #autocomplete-dropdown .aui-dropdown.fabric ol li.active, #autocomplete-dropdown .aui-dropdown.fabric ol li.active span, #com-atlassian-confluence div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dropdown li, #enb-workflow-overview-container .enb-workflow-overview-table th:not(.no-sort):hover, #move-page-dialog .search-results .hover td, #move-page-dialog .search-results .hover th, #move-page-dialog .ui-tree li a.current-parent, #mw-container .mw-notification-item.unread, #mw-container .mw-show-more:hover, #rte-toolbar #color-picker-control:active .aui-button, #rte-toolbar #table-highlight-group:active .aui-button, #space-admin-body .look-and-feel .greyboxfilled, #space-shuttle-container .space-shuttle-wrap .space-shuttle-view .space-shuttle-view-content .space-shuttle-spaces-view .space-shuttle-space-view>a:hover, #space-tools-body .look-and-feel .greyboxfilled, #spad-menu, #update-page-restrictions-dialog table.restrictions-dialog-table .restrictions-dialog-add-user-row, .RecentContentLoadingItem_confluence-icon-loading__1G_3b, .RecentContentLoadingItem_result-item-metadata-loading__81MqS, .RecentContentLoadingItem_result-item-title-loading__1rMRx, .RecentSpaceLoadingItem_recent-space-item-icon-loading__38bx_, .RecentSpaceLoadingItem_recent-space-title-loading__11GMh, .SearchSelect_search-filter-drop-down__4TTsO, .attachments tbody tr.hovered, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-calendar thead, .aui-datepicker-dialog .ui-datepicker .ui-datepicker-header, .blog-post-list li.blog-item:hover, .csi-document-list .csi-embed-list-content table.aui tr.csi-highlighted-row, .dashboard-calendar .events li.active, .dashboard-calendar .events li.highlighted, .data-table tr.selected, .data-table tr.selected a, .data-table tr.selected td, .diff-macro .diff-macro-properties, .diff-macro .diff-macro-properties td, .diff-macro .diff-macro-properties th, .eJTYOk.eJTYOk:hover, .fancy-select ol li:hover, .fc-state-highlight, .fnl2pxy, .hpo-container .hpo-card .card:hover, .infobox-popup, .linchpin-navigation-menus ul.level-0>li:hover, .list-container-popular-stream .stream-item:hover, .macro-list-item:hover, .page-context .cup-profile-macro, .permissions tr:nth-child(2n), .recommendation:hover, .rlabs-manage-row:hover, .rlabs-manage-section.rlabs-manage-section-header .rlabs-manage-row:hover, .rlabs-object-row .ascending, .rlabs-object-row .descending, .rwui_body table.confluenceTable, aui-inline-dialog.tf-inline-filters .aui-inline-dialog-contents div.tableFilterCbStyle, div.plugin-calendar .sub-calendar-panel .subcalendar-dropdown-menu .aui-dd-trigger:hover, div.plugin-calendar .sub-calendar-panel .subcalendar-item .child-subcalendars .child-subcalendar.active-child-subcalendar, select option, table.aui tbody tr.selected, tr.row[data-v-78d18044]:hover, ul.image-list li.image-effect-preview.hover, ul.rlabs-intro-whats-new li:hover {
       background-color: #2e2e2e !important
     }
 
@@ -1071,7 +1107,7 @@
       background-color: #3e3e3e !important
     }
 
-    #qrcode-box[data-v-38f02e6a], #rlabs-advanced-search-input, #rte-toolbar, #table-picker-container .table-picker-box, .ajs-menu-bar .ajs-drop-down, .aui-property-panel, .basicPanelTitle, .cloud-carousel .carousel-item-wrap, .code, .csi-embed-wrapper .csi-embed-style-link, .csi-tooltip .tipsy-inner, .diff-macro, .diff-macro .diff-macro-body, .handy-task-adder-controls-container .controls, .help-panel-header, .ic-reply-container, .ifcSingle-view, .jql-display-opts-overlay, .mw-no-notifications .subheading, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton, .preformatted, .rlabs-left-column.overview, .rlabs-search-columns, .task-sidebar .sidebar-wrapper, .wiki-content ul.rwui_children>li>a, .wiki-content ul.rwui_children>li>a:focus, .wiki-content ul.rwui_children>li>a:link, .wiki-content ul.rwui_children>li>a:visited, .wysiwyg-macro, div.tableFilterCbStyle div.filter-container .range, ul.rwui_children>li>a, ul.rwui_children>li>a:focus, ul.rwui_children>li>a:link, ul.rwui_children>li>a:visited {
+    #footer, #qrcode-box[data-v-38f02e6a], #rlabs-advanced-search-input, #rte-toolbar, #table-picker-container .table-picker-box, .ajs-menu-bar .ajs-drop-down, .aui-property-panel, .basicPanelTitle, .cloud-carousel .carousel-item-wrap, .code, .csi-embed-wrapper .csi-embed-style-link, .csi-tooltip .tipsy-inner, .diff-macro, .diff-macro .diff-macro-body, .eecontent, .handy-task-adder-controls-container .controls, .help-panel-header, .ic-reply-container, .ifcSingle-view, .jql-display-opts-overlay, .micropost, .mw-no-notifications .subheading, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton, .preformatted, .rlabs-left-column.overview, .rlabs-search-columns, .task-sidebar .sidebar-wrapper, .wiki-content ul.rwui_children>li>a, .wiki-content ul.rwui_children>li>a:focus, .wiki-content ul.rwui_children>li>a:link, .wiki-content ul.rwui_children>li>a:visited, .wysiwyg-macro, div.tableFilterCbStyle div.filter-container .range, ul.rwui_children>li>a, ul.rwui_children>li>a:focus, ul.rwui_children>li>a:link, ul.rwui_children>li>a:visited {
       background-color: #0e0e0e !important;
       border-color: #535353 !important
     }
@@ -1197,7 +1233,7 @@
       color: #ccc !important
     }
 
-    #mw-container .mw-drilldown-item .mw-drilldown-title, .aui-nav-pagination>li.aui-nav-selected, .file-list li.current .caption, .file-list li.hover .caption, .file-list li.selected .caption, .file-list li:hover .caption, .image-list li.current .caption, .image-list li.hover .caption, .image-list li.selected .caption, .image-list li:hover .caption, .plugin_attachments_container .attachment-buttons a.aui-button, .syntaxhighlighter.sh-confluence .plain, .syntaxhighlighter.sh-confluence .plain a, .upm-marketplace .upm-plugin-row p.upm-plugin-summary, .upm-plugin .upm-details p, .upm-plugin-list .upm-plugin, table.aui>tbody>tr, table.aui>tfoot>tr {
+    #eventtypes-edit-table .event-types-title, #mw-container .mw-drilldown-item .mw-drilldown-title, .aui-nav-pagination>li.aui-nav-selected, .event-card-info .aui-icon, .event-card-info .le-icon, .event-list .event-list-item .aui-icon, .event-list .event-list-item .le-icon, .file-list li.current .caption, .file-list li.hover .caption, .file-list li.selected .caption, .file-list li:hover .caption, .image-list li.current .caption, .image-list li.hover .caption, .image-list li.selected .caption, .image-list li:hover .caption, .plugin_attachments_container .attachment-buttons a.aui-button, .syntaxhighlighter.sh-confluence .plain, .syntaxhighlighter.sh-confluence .plain a, .upm-marketplace .upm-plugin-row p.upm-plugin-summary, .upm-plugin .upm-details p, .upm-plugin-list .upm-plugin, [style="color: #333 !important;font-weight: bold;text-align: left;font-size: 32.0px;"], form.sub-calendar-edit-form .field-group-permissions .with-hint, form.sub-calendar-edit-form .field-group-permissions label, span[style="color: rgb(0,51,102);"], strong[style="color: rgb(0,51,102);"], table.aui>tbody>tr, table.aui>tfoot>tr {
       color: #ccc !important
     }
 
@@ -1214,7 +1250,7 @@
       filter: invert(1) !important
     }
 
-    #mw-container .mw-drilldown-top, #mw-container .mw-taskdetail-notes:hover, #mw-container input, #mw-container input:hover, #mw-container textarea, #mw-container textarea:hover, #rlabs-graph-sidebar-header, #rlabs-graph-sidebar-navigator, #rlabs-objectschema-left-column-controller, .chosen-container .chosen-drop, .chosen-container-multi .chosen-choices, .expandingArea, .rlabs-graph-sidebar-content .rlabs-objects-bucket ul.rlabs-object-list>li .rlabs-object, .rlabs-graph-sidebar-content .rlabs-objects-bucket-header, .rlabs-graph-sidebar-navigator, .rlabs-ifc-graph-sidebar, .rlabs-ifc-graph-sidebar-content .rlabs-ifc-objects-bucket-header, .rlabs-ifc-graph-sidebar-header, .rlabs-ifc-graph-sidebar-navigator, .rlabs-ifc-objectschema-left-column-controller, .rlabs-object-row, .upm-plugins-see-more, .wiki-content .wysiwyg-macro-body, a.cp-button, table.aui.content-report-table-macro>tbody>tr, table.aui.content-report-table-macro>tfoot>tr {
+    #mw-container .mw-drilldown-top, #mw-container .mw-taskdetail-notes:hover, #mw-container input, #mw-container input:hover, #mw-container textarea, #mw-container textarea:hover, #rlabs-graph-sidebar-header, #rlabs-graph-sidebar-navigator, #rlabs-objectschema-left-column-controller, .aura-button-6ea425c4d71c51f4, .aura-button-c7bd6e96f8648a75, .chosen-container .chosen-drop, .chosen-container-multi .chosen-choices, .expandingArea, .file-item, .micropost .micropost-likes .micropost-like-profile-picture-container .micropost-like-profile-picture, .rlabs-graph-sidebar-content .rlabs-objects-bucket ul.rlabs-object-list>li .rlabs-object, .rlabs-graph-sidebar-content .rlabs-objects-bucket-header, .rlabs-graph-sidebar-navigator, .rlabs-ifc-graph-sidebar, .rlabs-ifc-graph-sidebar-content .rlabs-ifc-objects-bucket-header, .rlabs-ifc-graph-sidebar-header, .rlabs-ifc-graph-sidebar-navigator, .rlabs-ifc-objectschema-left-column-controller, .rlabs-object-row, .upm-plugins-see-more, .wiki-content .wysiwyg-macro-body, a.cp-button, table.aui.content-report-table-macro>tbody>tr, table.aui.content-report-table-macro>tfoot>tr {
       background-color: #2e2e2e !important;
       border-color: #535353 !important
     }
@@ -1233,7 +1269,7 @@
     }
 
     .linchpin-navigation-menus, div.tableFilterCbStyle div.tf-hider {
-      display: none !important
+      /*! display: none !important */
     }
 
     .panelHeader {
@@ -1268,7 +1304,7 @@
       color: #6effa0 !important
     }
 
-    .RecentItemsContainer_recent-page-container__3ic8- a:focus, .upm-plugin-row, a[title="Download Code"]:hover {
+    .RecentItemsContainer_recent-page-container__3ic8- a:focus, .upm-plugin-row, [style="padding:20px; background-repeat:no-repeat; background-size:cover; flex-direction:column; display:flex; width:100%; min-height:400px; justify-content:center; background-image:linear-gradient(#e7e7e7, #e7e7e7); background-position:center center; box-sizing:border-box"], a[title="Download Code"]:hover {
       background: #2e2e2e !important
     }
 
@@ -1310,7 +1346,7 @@
       border-color: #535353 transparent !important
     }
 
-    .ic-create-comment-view #rte, .upm-details.loaded, a.cp-button:hover, body.mceContentBody {
+    .aura-card[style="background: #247963;"], .aura-card[style="background: #fff;"], .ic-create-comment-view #rte, .upm-details.loaded, a.cp-button:hover, body.mceContentBody {
       background-color: #1e1e1e !important
     }
 
@@ -2145,7 +2181,7 @@
       color: #79c16c !important
     }
 
-    .aui-button[data-v-6d3c1004] {
+    .aui-button[data-v-6d3c1004], .aui-select2-drop .select2-highlighted .content-item[data-v-45646e8a] {
       background-color: #3e3e3e !important;
       color: #fff !important
     }
@@ -2166,6 +2202,86 @@
     .jira-tablesorter-header:hover, .jira-tablesorter-header:hover .jim-table-header-content {
       background-color: #2e2e2e !important;
       color: #ddd !important
+    }
+
+    .hpo-container .hpo-card .card {
+      box-shadow: 0 0 10px 2px #0e0e0e !important
+    }
+
+    .event-type-item .custom-event-type-title .subcalendar-icon-container>svg, .event-type-link .subcalendar-icon-container>svg, .select-avatar.tc-event-type-item .icon-teamcals svg {
+      fill: #6981aa !important
+    }
+
+    #edit-custom-event-type-form .custom-event-title label {
+      color: var(--aui-form-label-text-color) !important
+    }
+
+    .language-display-name {
+      color: #94a6c6 !important
+    }
+
+    #linchpin-header-inner #header {
+      border-color: #202020 !important
+    }
+
+    #footer-logo {
+      display: none
+    }
+
+    [style="min-height: 350px;box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 1px rgba(0, 0, 0, 0.16);border-radius: 4.0px;background-color: #ffffff;"] {
+      background-color: #0e0e0e !important
+    }
+
+    #event-dialog-footer, .datebox, .event-list, .microblog-subscription .subscription-header, .micropost-action-menu, .search-view .search-panel, [style="background: rgb(244, 245, 247);"], ul.microblog-spaces-and-topics-multi-select li span.space-not-selected-icon, ul.microblog-spaces-and-topics-multi-select>li {
+      background-color: #0e0e0e !important
+    }
+
+    .file-item:hover {
+      box-shadow: 0 0 3px 1px #3e3e3e !important
+    }
+
+    .ddate {
+      color: #a9bee3 !important
+    }
+
+    .bi.bi-info-circle path {
+      color: #c8e0ff !important
+    }
+
+    #aui-uid-2, [data-macro-name=aura-button]>a:hover>span, [style="color:#247963 !important; font-weight:normal !important; font-size:16px !important; line-height:24px !important; text-align:left"], ul.level-0>li a {
+      color: #309d81 !important
+    }
+
+    .micropost .micropost-right .micropost-header .micropost-topic {
+      color: #8495b3 !important
+    }
+
+    [style="background-color: #029989;"], [style="background-color: #37ad93;"], [style="background-color: #4bb2a0;"] {
+      background-color: #309d81 !important
+    }
+
+    .aura-button-6ea425c4d71c51f4 svg>path, .aura-button-c7bd6e96f8648a75 svg>path {
+      fill: #fff !important
+    }
+
+    .aura-button-6ea425c4d71c51f4:hover svg>path, .aura-button-c7bd6e96f8648a75:hover svg>path {
+      fill: #309d81 !important
+    }
+
+    form.aui.aui-legacy-forms aui-select button.aui-button:not(:hover) {
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent
+    }
+
+    .microblog-search .search-actions .microblog-search-button {
+      color: #88aeee !important;
+      background-color: #00000000 !important
+    }
+
+    .microblog-search .search-actions .microblog-clear-search-button, .microblog-search .search-actions .microblog-clear-search-button:active {
+      background-color: #00000000 !important;
+      color: #00000000 !important
     }
   }
 }
