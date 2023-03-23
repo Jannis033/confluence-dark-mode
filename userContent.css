@@ -1,7 +1,7 @@
 /*
   Confluence and Jira dark mode by Jannis Gipp
-  Version: v1.7
-  Changes: added support for new EPG blog on confluence
+  Version: v1.8
+  Changes: many improvements
 */
 @media (prefers-color-scheme:dark) {
   @-moz-document domain(support.epg.com) {
@@ -333,7 +333,7 @@
     }
 
     .aui-button-primary, .aui-button:not(.aui-button-subtle):not(.aui-button-link).active, .aui-button:not(.aui-button-subtle):not(.aui-button-link).active *, .aui-button:not(.aui-button-subtle):not(.aui-button-link):active, .aui-button:not(.aui-button-subtle):not(.aui-button-link):active *, .aui-button:not(.aui-button-subtle):not(.aui-button-link):focus, .aui-button:not(.aui-button-subtle):not(.aui-button-link):focus *, .aui-button:not(.aui-button-subtle):not(.aui-button-link):hover:not([aria-disabled=""]), .aui-button:not(.aui-button-subtle):not(.aui-button-link):hover:not([aria-disabled=""]) *, .button:focus, .button:focus *, .button:hover, .button:hover * {
-      color: #c4ddf7 !important
+      color: #c4ddf7 !important;
     }
 
     .aui-button:not(.aui-button-subtle):active[aria-disabled=""], .aui-button:not(.aui-button-subtle):active[aria-disabled=""] *, .aui-button:not(.aui-button-subtle):focus[aria-disabled=""], .aui-button:not(.aui-button-subtle):focus[aria-disabled=""] *, .aui-button:not(.aui-button-subtle):hover[aria-disabled=""], .aui-button:not(.aui-button-subtle):hover[aria-disabled=""] *, .aui-button:not(.aui-button-subtle)[aria-disabled=""], .aui-button:not(.aui-button-subtle)[aria-disabled=""] *, .button:disabled, .button:disabled *, .button:disabled:hover, .button:disabled:hover * {
@@ -758,6 +758,253 @@
     form.aui:not(.aui-legacy-forms) select.select:not([size]) {
       background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23979fae' d='M6.744 8.744a1.053 1.053 0 000 1.49l4.547 4.557a1 1 0 001.416 0l4.55-4.558a1.051 1.051 0 10-1.488-1.488l-3.77 3.776-3.768-3.776a1.051 1.051 0 00-1.487 0z'/%3E%3C/svg%3E") !important
     }
+
+    .ext_ui_dropdown_list.el-dropdown-menu.ext_ui_dropdown--light {
+      background-color: #0e0e0e !important;
+    }
+
+    .ext_ui_dropdown_section:not(:first-child) {
+      border-color: #535353 !important;
+    }
+
+    .ext_ui_dropdown_list.el-dropdown-menu.ext_ui_dropdown--light .ext_ui_dropdown_item:not(.is-disabled) .ext_ui_dropdown_item_anchor:focus, .ext_ui_dropdown_list.el-dropdown-menu.ext_ui_dropdown--light .ext_ui_dropdown_item:not(.is-disabled) .ext_ui_dropdown_item_anchor:hover {
+      background-color: #2e2e2e !important;
+    }
+
+    .rw_info {
+      background-color: #3e3e3e !important;
+    }
+
+    #rw_wrapper #rw_request_header {
+      color: #ccc !important;
+    }
+
+    .cv-custom-help-center-branding #content-wrapper .aui-button-primary:not([disabled]):not([aria-disabled="true"]), #dialog-submit-button-changing-language-intenso {
+      color: #a0aec6 !important;
+    }
+
+    .cv-custom-help-center-branding #content-wrapper .aui-button-primary:not([disabled]):not([aria-disabled="true"]):hover, #dialog-submit-button-changing-language-intenso:hover {
+      background: #313c46 !important;
+      color: #d0e0f9 !important;
+    }
+
+    .ext_ui_table_wrapper .ext_ui_table td, .ext_ui_table_wrapper .ext_ui_table th {
+      color: #fff !important;
+    }
+
+    .ext_table_cell {
+      border-color: #535353 !important;
+    }
+
+    .ext_table_row.ext_table_row__body:focus, .ext_table_row.ext_table_row__body:hover {
+      background-color: #3e3e3e !important;
+    }
+
+    .rw_knowledge_base_dialog {
+      background-color: #0e0e0e !important;
+    }
+
+    .rw_knowledge_base_dialog .rw_page.rw_loading .rw_placeholder_container span {
+      background-color: #2e2e2e !important;
+    }
+
+    .rw_formatting_item.rw_text_color_dark > .rw_cell .rw_item_secondary_text,.ext_ui_select.el-select .el-input.el-input--suffix .el-input__suffix .el-select__caret.rw_external_icon_angle-up {
+      color: #aaa !important;
+    }
+
+    .rw_module_empty {
+      color: #fff !important;
+    }
+
+    .ext_ui_button {
+      background-color: #668ccc !important;
+      color: #fff !important;
+    }
+
+    .ext_ui_button:hover {
+      background-color: #557bbb !important;
+    }
+
+    .rw_filter_bar_container.rw_filter_bar_bg {
+      background-color: #0e0e0e !important;
+    }
+
+    .ext_ui_input input.ext_ui_input_inner,.ext_ui_select.el-select .el-input input.el-input__inner, .el-input__inner {
+      background-color: #2e2e2e !important;
+      border-color: #535353 !important;
+      color: #fff !important;
+    }
+
+    .ext_ui_input input.ext_ui_input_inner:hover,.ext_ui_select.el-select .el-input input.el-input__inner:hover {
+      border-color: #737373 !important;
+    }
+
+    .ext_ui_input .el-input__icon {
+      color: #fff !important;
+    }
+
+    .ext_ui_input .el-input__suffix .el-input__suffix-inner .el-input__icon.el-icon-circle-close,.ext_ui_select.el-select .el-input.el-input--suffix .el-input__suffix .el-select__caret.el-icon-circle-close {
+      background-color: #3e3e3e !important;
+      color: #fff !important;
+    }
+
+    .ext_ui_input .el-input__suffix .el-input__suffix-inner .el-input__icon.el-icon-circle-close:hover,.ext_ui_select.el-select .el-input.el-input--suffix .el-input__suffix .el-select__caret.el-icon-circle-close:hover {
+      background-color: #4e4e4e !important;
+    }
+
+    .el-select-dropdown {
+      background-color: #0e0e0e !important;
+    }
+
+    .ext_ui_select_popup .el-select-dropdown__list .el-select-dropdown__item.hover, .ext_ui_select_popup .el-select-dropdown__list .el-select-dropdown__item.selected, .ext_ui_select_popup .el-select-dropdown__list .el-select-dropdown__item.selected.hover {
+      background-color: #2e2e2e !important;
+    }
+
+    .ext_ui_select_popup .el-select-dropdown__list .el-select-dropdown__item,.ext_ui_checkbox.el-checkbox .el-checkbox__input.is-checked + .el-checkbox__label, .ext_ui_checkbox.el-checkbox .el-checkbox__input.is-indeterminate + .el-checkbox__label,.ext_ui_checkbox.el-checkbox,.ext_ui_popover.el-popper .ext_ui_popover_content, .ext_ui_popover.el-popper .ext_ui_popover_form,.ext_ui_popover.el-popper .el-popover__title {
+      color: #fff !important;
+    }
+
+    .ext_ui_select_popup .el-select-dropdown__list .el-select-dropdown__item.hover.hover, .ext_ui_select_popup .el-select-dropdown__list .el-select-dropdown__item.selected.hover, .ext_ui_select_popup .el-select-dropdown__list .el-select-dropdown__item.selected.hover.hover,.ext_ui_select_popup .el-select-dropdown__list .el-select-dropdown__item,.ext_ui_select_popup.el-popper.el-select-dropdown,.ext_ui_select_popup .ext_ui_dropdown_group .el-select-dropdown__list .el-select-group__wrap .el-select-group__title,.ext_ui_popover.el-popper .ext_ui_popover_footer {
+      border-color: #535353 !important;
+    }
+
+    .el-skeleton__item {
+      background-color: #3e3e3e !important;
+    }
+
+    .el-popover {
+      background-color: #0e0e0e !important;
+    }
+
+    .ext_ui_checkbox.el-checkbox .el-checkbox__input .el-checkbox__inner {
+      background-color: #2e2e2e !important;
+      border-color: #535353 !important;
+    }
+
+    .ext_ui_checkbox.el-checkbox:hover .el-checkbox__input .el-checkbox__inner {
+      border-color: #737373 !important;
+    }
+
+    th.ext_table_head_cell.sortable-chosen {
+      background: #3e3e3e !important;
+    }
+
+    th.ext_table_head_cell.ext__sortable:focus, th.ext_table_head_cell.ext__sortable:focus-visible, th.ext_table_head_cell.ext__sortable:hover, th.ext_table_head_cell:hover {
+      box-shadow: inset 0 0 0 .0625rem #535353 !important;;
+    }
+
+    th.ext_table_head_cell .ext_sorting_icons .ext_icon.ext__is-active {
+      color: #88aeee !important;
+    }
+
+    .calendar, .calendar table,.calendar .combo {
+      background-color: #0e0e0e !important;
+      border-color: #535353 !important;
+    }
+
+    .calendar table .wn {
+      background-color: #1e1e1e !important;
+    }
+
+    .calendar td.time {
+      background-color: #1e1e1e !important;
+      border-color: #535353 !important;
+    }
+
+    .calendar td.time span,.calendar td.hilite, .calendar .combo .hilite, .calendar td.time span.hilite {
+      background-color: #2e2e2e !important;
+    }
+
+    .calendar tfoot .ttip,.calendar .headrow td {
+      border-color: #535353 !important;
+    }
+
+    .calendar .daysrow .emptycell + .day.hilite, .calendar .daysrow .day + .day.hilite {
+      background-color: #3e3e3e !important;
+      color: #fff !important;
+    }
+
+    form.aui .security-level .drop:hover .drop-menu::after {
+      border-top-color: #9fafca !important;
+    }
+
+    form.aui .drop:hover .security-level-drop-icon {
+      color: #9fafca !important;
+    }
+
+    #footer[role="contentinfo"] {
+      background-color: #202020 !important;
+    }
+
+    .aui-page-panel {
+      border-color: #535353 !important;
+    }
+
+    .ruiTabs--solid {
+      background-color: #2e2e2e !important;
+    }
+
+    .ruiTabs__item p, .ruiTabs__item__tab--dragged p {
+      color: #888 !important;
+    }
+
+    .ruiTabs__item--selected p, .ruiTabs__item--selected a {
+      color: #fff !important;
+    }
+
+    .ruiDialog {
+      color: #888 !important;
+    }
+
+.iamManageAttributes .ruiDialog__body {
+  border-color: #535353 !important;
+}
+
+.ruiTable__row--filter:hover .ruiButton--toggle.ruiButton--iconOnly:not([disabled]) [class^="rIcon-"]:not([class*="rIcon-color-"]), .ruiList--iamAttributeList .ruiList__item:hover .ruiButton--toggle.ruiButton--iconOnly:not([disabled]) [class^="rIcon-"]:not([class*="rIcon-color-"]) {
+  color: #888 !important;
+}
+
+.iamBulkHeader {
+  background-color: #0e0e0e !important;
+  box-shadow: inset 0 -1px 0 0 #535353 !important;;
+}
+
+.ruiBanner--light {
+  background-color: #3e3e3e !important;
+  color: #fff !important;
+}
+
+.ruiBanner--light.ruiBanner--warning {
+  border-color: #ac8700 !important;
+}
+
+.ruiProgressIndicator__step--passed, .ruiProgressIndicator__step--current {
+  color: #fff !important;
+}
+
+.iamFormSubtitle,.ruiDialog--scrollable .ruiDialog__body,.iamShareModal__link,.iamObjectGraphDialog__body {
+  border-color: #535353 !important;
+}
+
+.ruiList--dropdown {
+  background-color: #1e1e1e !important;
+}
+
+.iamShareListEmptyState__desc {
+  color: #888 !important;
+}
+
+.ruiToast {
+  background-color: #2e2e2e !important;
+}
+
+.ruiToast__body,.ruiToast__header__title {
+  color: #fff !important;
+}
+
+#rlabs-graph {
+  background-color: #0e0e0e !important;
+}
   }
 
   @-moz-document domain(faq.epg.com), domain(support.epg.com) {
@@ -873,8 +1120,8 @@
       background-color: #0e0e0e !important
     }
 
-    #insert-menu .aui-dropdown .icon, #rte-toolbar #color-picker-control:active .aui-button .aui-icon, #rte-toolbar #table-highlight-group:active .aui-button .aui-icon, .CheckboxListItem_checkbox-list-item-component__3FNWN button, .RecentContentItem_result-item-title__f9hg-, .RecentSpaceItem_recent-space-title__qUP_R, .SearchContentItem_content-title__tMLba, .SearchSelect_search-filter-drop-down__4TTsO, .aui-button.add-template, .aui-button.aui-button-link, .aui-button.manage-template, .aui-dialog .dialog-page-menu li.page-menu-item button.item-button, .aui-navgroup-horizontal .aui-nav>li a, .aui-toolbar .aui-buttons .toolbar-item-link button.toolbar-trigger, .aui-toolbar .aui-buttons .toolbar-item-link:hover button.toolbar-trigger, .cover-stories-container .social-section-container>span a>span, .cv-request-options a .aui-icon, .expand-control-text, .ia-secondary-content .acs-tree-item .navigation-pseudo-link, .label-list .labels-edit-container .aui-iconfont-devtools-tag-small, .list-container a:not(.aui-button), .microblog-search .search-actions .microblog-clear-search-button::before, .news-center-result-container .social-section-container>span a>span, .news-feed-macro .social-section-container>span a>span, .news-magazine-module .social-section-container>span a>span, :not(ul.level-0>li)>*>a:not(.aui-button, .aui-dialog2-header-close, .issueaction-aui-icon):not(.disabled), body.spaces .aui-tabs>.tabs-menu .menu-item a, body.spaces .aui-tabs>.tabs-menu .menu-item a:link, body.spaces .aui-tabs>.tabs-menu .menu-item a:visited, div.plugin-calendar .fc .fc-view-month .fc-day-number, div.plugin-calendar .sub-calendar-panel .subcalendar-item .child-subcalendars, div.plugin-calendar .sub-calendar-panel .subcalendar-item .subcalendar-name.header-color, header#header nav.aui-header .aui-dropdown2-section a {
-      color: #88aeee !important
+    #insert-menu .aui-dropdown .icon, #rte-toolbar #color-picker-control:active .aui-button .aui-icon, #rte-toolbar #table-highlight-group:active .aui-button .aui-icon, .CheckboxListItem_checkbox-list-item-component__3FNWN button, .RecentContentItem_result-item-title__f9hg-, .RecentSpaceItem_recent-space-title__qUP_R, .SearchContentItem_content-title__tMLba, .SearchSelect_search-filter-drop-down__4TTsO, .aui-button.add-template, .aui-button.aui-button-link, .aui-button.manage-template, .aui-dialog .dialog-page-menu li.page-menu-item button.item-button, .aui-navgroup-horizontal .aui-nav>li a, .aui-toolbar .aui-buttons .toolbar-item-link button.toolbar-trigger, .aui-toolbar .aui-buttons .toolbar-item-link:hover button.toolbar-trigger, .cover-stories-container .social-section-container>span a>span, .cv-request-options a .aui-icon, .expand-control-text, .ia-secondary-content .acs-tree-item .navigation-pseudo-link, .label-list .labels-edit-container .aui-iconfont-devtools-tag-small, .list-container a:not(.aui-button), .microblog-search .search-actions .microblog-clear-search-button::before, .news-center-result-container .social-section-container>span a>span, .news-feed-macro .social-section-container>span a>span, .news-magazine-module .social-section-container>span a>span, :not(ul.level-0>li)>*>a:not(.aui-button, .aui-dialog2-header-close, .issueaction-aui-icon):not(.disabled):not(.tf-disabled-link):not(.ui-state-active):not(.rwui_tab_button), body.spaces .aui-tabs>.tabs-menu .menu-item a, body.spaces .aui-tabs>.tabs-menu .menu-item a:link, body.spaces .aui-tabs>.tabs-menu .menu-item a:visited, div.plugin-calendar .fc .fc-view-month .fc-day-number, div.plugin-calendar .sub-calendar-panel .subcalendar-item .child-subcalendars, div.plugin-calendar .sub-calendar-panel .subcalendar-item .subcalendar-name.header-color, header#header nav.aui-header .aui-dropdown2-section a {
+      color: #88aeee !important;
     }
 
     .update-item:hover {
@@ -888,7 +1135,7 @@
 
     .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio:not(.aui-dropdown2-disabled):hover, .aui-dropdown2.aui-style-default:hover a.active:not(.aui-dropdown2-disabled), .aui-dropdown2.aui-style-default:hover a:not(.aui-dropdown2-disabled):focus, .aui-dropdown2.aui-style-default:hover a:not(.aui-dropdown2-disabled):hover, header#header nav.aui-header .aui-dropdown2-section a:focus, header#header nav.aui-header .aui-dropdown2-section a:hover {
       color: #88aeee !important;
-      background-color: #575757 !important
+      background-color: #3e3e3e !important
     }
 
     #header .aui-header {
@@ -1107,7 +1354,7 @@
       background-color: #3e3e3e !important
     }
 
-    #footer, #qrcode-box[data-v-38f02e6a], #rlabs-advanced-search-input, #rte-toolbar, #table-picker-container .table-picker-box, .ajs-menu-bar .ajs-drop-down, .aui-property-panel, .basicPanelTitle, .cloud-carousel .carousel-item-wrap, .code, .csi-embed-wrapper .csi-embed-style-link, .csi-tooltip .tipsy-inner, .diff-macro, .diff-macro .diff-macro-body, .eecontent, .handy-task-adder-controls-container .controls, .help-panel-header, .ic-reply-container, .ifcSingle-view, .jql-display-opts-overlay, .micropost, .mw-no-notifications .subheading, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton, .preformatted, .rlabs-left-column.overview, .rlabs-search-columns, .task-sidebar .sidebar-wrapper, .wiki-content ul.rwui_children>li>a, .wiki-content ul.rwui_children>li>a:focus, .wiki-content ul.rwui_children>li>a:link, .wiki-content ul.rwui_children>li>a:visited, .wysiwyg-macro, div.tableFilterCbStyle div.filter-container .range, ul.rwui_children>li>a, ul.rwui_children>li>a:focus, ul.rwui_children>li>a:link, ul.rwui_children>li>a:visited {
+    #footer, #qrcode-box, #rlabs-advanced-search-input, #rte-toolbar, #table-picker-container .table-picker-box, .ajs-menu-bar .ajs-drop-down, .aui-property-panel, .basicPanelTitle, .cloud-carousel .carousel-item-wrap, .code, .csi-embed-wrapper .csi-embed-style-link, .csi-tooltip .tipsy-inner, .diff-macro, .diff-macro .diff-macro-body, .eecontent, .handy-task-adder-controls-container .controls, .help-panel-header, .ic-reply-container, .ifcSingle-view, .jql-display-opts-overlay, .micropost, .mw-no-notifications .subheading, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .feed-post, .news-feed-macro .news-feed-macro-content-wrapper .default-layout .news-feed-skeleton, .preformatted, .rlabs-left-column.overview, .rlabs-search-columns, .task-sidebar .sidebar-wrapper, .wiki-content ul.rwui_children>li>a, .wiki-content ul.rwui_children>li>a:focus, .wiki-content ul.rwui_children>li>a:link, .wiki-content ul.rwui_children>li>a:visited, .wysiwyg-macro, div.tableFilterCbStyle div.filter-container .range, ul.rwui_children>li>a, ul.rwui_children>li>a:focus, ul.rwui_children>li>a:link, ul.rwui_children>li>a:visited {
       background-color: #0e0e0e !important;
       border-color: #535353 !important
     }
@@ -2145,8 +2392,12 @@
       content: url('https://epg-parkhaus.de/media/epg_logo_weiss.png') !important
     }
 
-    #app-switcher.aui-dropdown2.aui-style-default .active, .aui-dropdown2-trigger.app-switcher-trigger:hover, .aui-dropdown2.aui-style-default .active {
-      background-color: #ee8324 !important
+    #app-switcher.aui-dropdown2.aui-style-default .active, .aui-dropdown2-trigger.app-switcher-trigger:hover {
+      background-color: #ee8324 !important;
+    }
+
+    .aui-dropdown2.aui-style-default .active {
+      background-color: #3e3e3e !important;
     }
 
     .syntaxhighlighter.sh-confluence .string, .syntaxhighlighter.sh-confluence .string a {
@@ -2283,5 +2534,293 @@
       background-color: #00000000 !important;
       color: #00000000 !important
     }
+
+    .search-participant {
+      background-color: #0e0e0e !important;
+    }
+
+    form.aui .text.ee-search-participant-input {
+      border-color: #535353 !important;
+    }
+
+    .additional-filter-container {
+      background-color: #0e0e0e !important;
+    }
+
+    .ee-date-container {
+      background-color: #2e2e2e !important;
+    }
+
+    .ee-date.ng-valid, .ee-hub-filter input,form.aui:not(.aui-legacy-forms) .aui-select2-container:not(:hover) .select2-choices, form.aui:not(.aui-legacy-forms):not(:hover) .multi-select,.portal-search:not(:hover) input.search-input {
+      border-color: #535353 !important;
+    }
+
+    form.aui:not(.aui-legacy-forms) .aui-select2-container:hover .select2-choices, form.aui:not(.aui-legacy-forms):hover .multi-select {
+      border-color: #888 !important;
+    }
+
+    .empty-state-content {
+      background-color: #202020 !important;
+    }
+
+    .loader.progress {
+      background: #2e2e2e !important;
+    }
+
+    .portal-view .globalTimelineMoreWrapper .globalTimelineMoreButton {
+      background-color: #557bbb !important;
+      color: #fff !important;
+    }
+
+    .portal-view .globalTimelineMoreWrapper .globalTimelineMoreButton:hover {
+      background-color: #2e2e2e !important;
+    }
+
+    .people-directory-people-list-loader .loading-container-outer {
+      background-color: #0e0e0e !important;
+    }
+
+    .people-directory-people-list-loader .loading-container-outer .loading-container-inner svg rect {
+      filter: invert(0.9) !important;
+    }
+
+    .people-directory-people-list-loader .loading-container-outer,#space-details-dialog .aui-dialog2-content .space-admins-table .dialog-element-container {
+      border-color: #535353 !important;
+    }
+
+    .aui-sidebar-body,.tile {
+      background-color: #0e0e0e !important;
+    }
+
+    .load-more-container {
+      background-color: transparent !important;;
+    }
+
+    .tile .actions .aui-buttons .aui-button {
+      background-color: #2e2e2e !important;
+    }
+
+    .tile .actions .aui-buttons .aui-button:hover {
+      color: #ccc !important;
+    }
+
+    .aui-sidebar .aui-sidebar-footer {
+      background-color: #0e0e0e !important;
+    }
+
+    .space-administration .aui-button.done {
+      color: #88aeee !important;
+      background-color: #0e0e0e !important;
+    }
+
+    .space-administration .aui-button.done:hover {
+      color: #fff !important;
+      background-color: #557bbb !important;
+    }
+
+    .ia-fixed-sidebar {
+      background-color: #0e0e0e !important;
+    }
+
+    #header-actions-content .action-drawer-item a {
+      background-color: #0e0e0e !important;
+      border-color: #535353 !important;
+    }
+
+    #header-actions-content .action-drawer-item:hover a {
+      background-color: #1e1e1e !important;
+    }
+
+    #gadget-directory-dialog div.directory-help {
+      border-color: #535353 !important;
+    }
+
+    #gadget-directory-dialog p.macro-author, #gadget-directory-dialog p.macro-desc {
+      color: #aaa !important;
+    }
+
+    #sub-header {
+      display:none !important;
+    }
+
+    #linchpin-header {
+      height: var(--ltp-header-height) !important;
+    }
+
+    .linchpin-navigation-menus {
+      display: none;
+    }
+
+    #header-actions-content .action-drawer-item a .action-drawer-icon {
+      background-color: #2e2e2e !important;
+    }
+
+    body.aui-theme-default .aui-button:not(.aui-button-primary):active .aui-icon {
+      color: #fff !important;
+    }
+
+    .news-center-result-container.layout-tiles .tile-container .news-tile.classic-skin,.news-center-result-container.layout-list.default-layout .feed-post {
+      border-color: #535353 !important;
+    }
+
+    .news-center-result-container.layout-tiles .news-tile.classic-skin .details-container {
+      border-color: #535353 !important;
+      background-color: #0e0e0e !important;
+    }
+
+    .news-center-result-container.layout-tiles .news-tile .details-container .space-categories-social-container a.open-enb-space-overlay:link, .news-center-result-container.layout-tiles .news-tile .details-container .space-categories-social-container a.open-enb-space-overlay:visited, .news-center-result-container.layout-tiles .news-tile .details-container .space-categories-social-container a.open-enb-space-overlay:hover, .news-center-result-container.layout-tiles .news-tile .details-container .space-categories-social-container a.open-enb-space-overlay:active, .news-center-result-container.layout-tiles .news-tile .details-container .space-categories-social-container a.open-enb-space-overlay:focus,.news-center-result-container.layout-list.default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:link, .news-center-result-container.layout-list.default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:visited, .news-center-result-container.layout-list.default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:hover, .news-center-result-container.layout-list.default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:active, .news-center-result-container.layout-list.default-layout .feed-post .space-categories-social-container a.open-enb-space-overlay:focus {
+      background-color: #2f343e !important;
+    }
+
+    .enb-news-view-intro {
+      color: rgb(181, 207, 253) !important;
+    }
+
+    .news-center-result-container.layout-list.default-layout .feed-post .feed-post-details span.read-more .read-more-icon {
+      color: #88aeee !important;
+    }
+
+    div.empty-state-container {
+      background-color: transparent !important;
+    }
+
+    .news-subscription-item.tiles {
+      background-color: #0e0e0e !important;
+    }
+
+    .news-subscription-item .actions .aui-buttons .aui-button {
+      background-color: #2e2e2e !important;
+    }.news-subscription-item .actions .aui-buttons .aui-button:hover{
+      background-color: #3e3e3e !important;
+    }
+
+    .news-subscription-item.list {
+      background-color: #0e0e0e !important;
+      border-color: #535353 !important;
+    }
+
+    .news-subscription-item.list:hover {
+      background-color: #1e1e1e !important;
+    }
+
+    #metadata-panel #enb-workflow-panel-toggle {
+      background-color: #0e0e0e !important;
+      border-color: #535353 !important;
+    }
+
+    #metadata-panel {
+      background-color: #0e0e0e !important;
+    }
+
+    #metadata-panel #metadata-panel-content .button-container,#metadata-panel #metadata-panel-content {
+      border-color: #535353 !important;
+    }
+
+    .aui-button.aui-button-primary[disabled], .aui-button.aui-button-primary[disabled]:hover, .aui-button.aui-button-primary[disabled]:focus, .aui-button.aui-button-primary[disabled]:active, .aui-button.aui-button-primary[aria-disabled="true"], .aui-button.aui-button-primary[aria-disabled="true"]:hover, .aui-button.aui-button-primary[aria-disabled="true"]:focus, .aui-button.aui-button-primary[aria-disabled="true"]:active {
+      background-color: #555 !important;
+      border-color: #535353 !important;
+    }
+
+    #metadata-panel #metadata-panel-content .enb-news-teaser-section .enb-news-teaser-type-selection .teaser-type-selection-additional {
+      background-color: #2e2e2e !important;
+    }
+
+    .filter-container {
+      background-color: #202020 !important;
+    }
+
+    #enb-news-center-container .filter-container {
+      background-color: #0e0e0e !important;
+    }
+
+    #news-center-filters-content .news-filter > p {
+      color: #aaa !important;
+    }
+
+    .rwui_button.rwui_inline-block {
+      background-color: #0e0e0e !important;
+    }
+
+    .rwui_button.rwui_inline-block:hover {
+      background-color: #1e1e1e !important;
+    }
+
+    div.tableFilterCbStyle div.tf-hider,.tf-shower {
+      border-color: #535353 !important;
+    }
+
+    .tf-hider .tf-hide-show-icon,.tf-shower-wrapper .tf-hide-show-icon {
+      filter: invert(1) !important;
+    }
+
+    a.tf-disabled-link {
+      color: #888 !important;
+    }
+
+    .ui-autocomplete.ui-menu.ui-widget {
+      background-color: #0e0e0e !important;
+      border-color: #535353 !important;
+    }
+
+    .ui-autocomplete.ui-menu.ui-widget .ui-menu-item .ui-menu-item-wrapper, .ui-autocomplete.ui-menu.ui-widget .ui-menu-item a, .ui-autocomplete.ui-menu.ui-widget .ui-menu-item div, .ui-autocomplete.ui-menu.ui-widget li .ui-menu-item-wrapper, .ui-autocomplete.ui-menu.ui-widget li a, .ui-autocomplete.ui-menu.ui-widget li div {
+      color: #fff !important;
+    }
+
+    #autocomplete.fabric {
+      color: #88aeee !important;
+    }
+
+    table {
+      outline-color: #737373 !important;
+    }
+
+    #clear-filter:hover::before {
+      color: #888 !important;
+    }
+
+    .ic-replies #ic-showmore-container .ic-decor-line,.ic-replies,.ic-replies #ic-showmore-container {
+      border-color: #535353 !important;
+    }
+
+    .ic-replies #ic-showmore-container .ic-collapse-decor-center span {
+      background-color: #2e2e2e !important;
+    }
+
+    .aui-iconfont-close-dialog, .aui-iconfont-arrow-down, .aui-iconfont-arrow-up {
+      color: #88aeee !important;
+    }
+
+    #ic-nav-container {
+      color: #aaa !important;
+    }
+
+    .ic-action-menu.ic-action-menu-active,.ic-confirm-container {
+      background-color: #2e2e2e !important;
+      border-color: #535353 !important;
+    }
+
+    .ic-confirm-label,.ic-confirm-message {
+      color: #ccc !important;
+    }
+
+    .aui-button.aui-button-text[disabled] .aui-icon, .aui-button.aui-button-text[aria-disabled="true"] .aui-icon {
+      color: #888 !important;
+    }
+
+.cover-stories-container .news-tile.classic-skin.title-on-color.background-color-1 .details-container .space-categories-social-container a.open-enb-space-overlay:link, .cover-stories-container .news-tile.classic-skin.title-on-color.background-color-1 .details-container .space-categories-social-container a.open-enb-space-overlay:visited, .cover-stories-container .news-tile.classic-skin.title-on-color.background-color-1 .details-container .space-categories-social-container a.open-enb-space-overlay:hover, .cover-stories-container .news-tile.classic-skin.title-on-color.background-color-1 .details-container .space-categories-social-container a.open-enb-space-overlay:active, .cover-stories-container .news-tile.classic-skin.title-on-color.background-color-1 .details-container .space-categories-social-container a.open-enb-space-overlay:focus {
+  background-color: #0e0e0e !important;
+}
+
+.cover-stories-container .tile-container .news-tile.classic-skin {
+  border-color: #535353 !important;
+}
+
+.cover-stories-container .tile-container .news-tile.classic-skin.title-on-color,.cover-stories-container .news-tile.classic-skin.title-on-color.background-color-1 .details-container {
+  background-color: #1e1e1e !important;
+}
+
+.cover-stories-container .news-tile.classic-skin.title-on-color.background-color-1 .details-container {
+  border-color: #535353 !important;
+}
   }
 }
